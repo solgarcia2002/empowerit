@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DropdownButton from './componentes/dropdownButton';
+import DropdownB from './componentes/DropdownB';
 import NavbarComp from './componentes/Navbar';
-import Cover from "./componentes/Media/Cover";
-import CoverVideo from "./componentes/Media/CoverVideo.mp4";
+import Covers from "./componentes/Media/Covers";
+
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
      <div className='App'>
        <NavbarComp/> 
         <div>
-         <DropdownButton/>
+         <DropdownB/>
           <h1> Hola!!!</h1>
         </div>
            <div>
-             <Cover/>
+             <Covers/>
            </div>
      </div >
   );
