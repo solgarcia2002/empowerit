@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import DropdownB from './componentes/DropdownB';
 import NavbarComp from './componentes/Navbar';
 import Covers from "./componentes/Media/Covers";
+import './App.css';
+
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
        <NavbarComp/> 
         <div>
          <DropdownB/>
-          <h1> Hola!!!</h1>
+          
         </div>
            <div>
              <Covers/>
