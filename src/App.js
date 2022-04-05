@@ -12,7 +12,7 @@ function App() {
        <NavbarComp/> 
         <div>
          <DropdownB/>
-          <h1> Hola!!!</h1>
+          <h1> Hola Mundo</h1>
         </div>
            <div>
              <Covers/>
