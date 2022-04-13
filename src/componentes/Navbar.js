@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap"; 
-
+import './Navbar.css';
  
 export default class NavbarComp extends Component { 
     render () {

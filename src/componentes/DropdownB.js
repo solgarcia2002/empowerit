@@ -1,8 +1,12 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
+<<<<<<< HEAD
 import {Container, Dropdown, DropdownButton} from "react-bootstrap"
 
 
+=======
+import {Dropdown, DropdownButton} from 'react-bootstrap';
+>>>>>>> fea27e8a3d75f6a83361792a6a732e8b76197caa
  export default function DropdownB () {
     const [t, i18n]= useTranslation ("global");
 

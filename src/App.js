@@ -4,7 +4,7 @@ import DropdownB from './componentes/DropdownB';
 import NavbarComp from './componentes/Navbar';
 import Covers from "./componentes/Media/Covers";
 import './App.css';
-
+import About from './componentes/About/About';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         </div>
            <div>
              <Covers/>
+             <About/>
            </div>
      </div >
   );
