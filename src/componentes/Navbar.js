@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap"; 
 import './Navbar.css';
+ import DropdownB from './DropdownB';
  
-import DropdownB from './DropdownB';
 export default class NavbarComp extends Component { 
     render () {
        return (
@@ -21,11 +21,16 @@ export default class NavbarComp extends Component {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Otras Opciones</NavDropdown.Item>
                      </NavDropdown>
+<<<<<<< Updated upstream
                      <Nav.Link href="#link">Inversores</Nav.Link> 
                      
+=======
+                     <Nav.Link href="#link">Inversores</Nav.Link>
+>>>>>>> Stashed changes
                  </Nav>
                  <DropdownB/>
                </Navbar.Collapse>
+               <DropdownB/>
            </Container>
          </Navbar>
        );
