@@ -28,5 +28,7 @@
     color: white;
     font-size: 32px;
 }
-
+Button:hover {
+    opacity: 50%;
+}
 

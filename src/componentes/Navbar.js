@@ -7,7 +7,7 @@ export default class NavbarComp extends Component {
     render () {
        return (
          <Navbar bg="light" expand="lg">
-           <Container>
+           <Container className='contenido'>
              <Navbar.Brand href="#home">Empowerit</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                <Navbar.Collapse id="basic-navbar-nav">
@@ -22,8 +22,9 @@ export default class NavbarComp extends Component {
                         <NavDropdown.Item href="#action/3.4">Otras Opciones</NavDropdown.Item>
                      </NavDropdown>
                      <Nav.Link href="#link">Inversores</Nav.Link> 
-                     <DropdownB/>
+                     
                  </Nav>
+                 <DropdownB/>
                </Navbar.Collapse>
            </Container>
          </Navbar>
