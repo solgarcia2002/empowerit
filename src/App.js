@@ -6,16 +6,11 @@ import Covers from "./componentes/Media/Covers";
 import './App.css';
 import About from './componentes/About/About';
 
-
 function App() {
   return (
 
      <div className='App'>
        <NavbarComp/> 
-        <div>
-         <DropdownB/>
-          
-        </div>
            <div>
              <Covers/>
              <About/>

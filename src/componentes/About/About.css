@@ -1,12 +1,10 @@
-.about-conteiner {
-display: flex;
+.about-container {
+display:flex;
 background-color: white;
-color:black;
 height: 70vh;
-padding: 100px 0 100px 0;
 }
 
-.about-desc {
+.about-desc1 {
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -17,15 +15,14 @@ padding: 0 100px 0 100px;
 .about-desc > h3 {
 margin-bottom: 30px;
 font-size: 28px;
-
 }
 
 .about-desc > p {
 line-height: 1.5; 
 }
 
-.about-img {
-width: 45%;
+.about-img1 {
+width: auto;
 display: flex;
 align-self:center;
 overflow:hidden;

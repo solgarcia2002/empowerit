@@ -2,4 +2,6 @@
     position: fixed;
     top: 0;
     z-index: 1;
+    background-color: transparent; 
+    width: 100%;
 }

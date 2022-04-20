@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap"; 
 import './Navbar.css';
  
+import DropdownB from './DropdownB';
 export default class NavbarComp extends Component { 
     render () {
        return (
-        <div className="navegacion">
          <Navbar bg="light" expand="lg">
            <Container>
              <Navbar.Brand href="#home">Empowerit</Navbar.Brand>
@@ -21,12 +21,12 @@ export default class NavbarComp extends Component {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Otras Opciones</NavDropdown.Item>
                      </NavDropdown>
-                     <Nav.Link href="#link">Inversores</Nav.Link>
+                     <Nav.Link href="#link">Inversores</Nav.Link> 
+                     <DropdownB/>
                  </Nav>
                </Navbar.Collapse>
            </Container>
          </Navbar>
-        </div>
        );
     };
 }
