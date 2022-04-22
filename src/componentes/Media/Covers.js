@@ -8,7 +8,7 @@ const Covers = () => {
 
   return (
     <div className='cover-container'>
-        <video className='video'src={CoverVideo} autoPlay loop muted/>
+        <video className='d-none d-md-block video'src={CoverVideo} autoPlay loop muted/>
          <h1> Empowerit</h1>  
          <p> "La tecnología es mejor cuando junta a las personas" </p>
          

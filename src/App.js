@@ -4,12 +4,10 @@ import NavbarComp from './componentes/Navbar';
 import Covers from "./componentes/Media/Covers";
 import './App.css';
 import About from './componentes/About/About';
-<<<<<<< Updated upstream
 import Services from './componentes/Services/Services';
 import ControlledCarousel from './componentes/Carousels/Carousels';
-=======
-import ControlledCarousel from './componentes/Carousel/Carousel';
->>>>>>> Stashed changes
+import Msj from './componentes/Msj/Msj';
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
@@ -19,12 +17,11 @@ function App() {
            <div>
              <Covers/>
              <About/>
-<<<<<<< Updated upstream
              <Services/>
-=======
->>>>>>> Stashed changes
              <ControlledCarousel/>
-           </div>
+             <Msj/>
+             <Footer/>
+           </div>  
      </div >
   );
 }
