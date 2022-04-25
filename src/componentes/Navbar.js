@@ -21,12 +21,16 @@ export default class NavbarComp extends Component {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Otras Opciones</NavDropdown.Item>
                      </NavDropdown>
+<<<<<<< HEAD
                      <Nav.Link href="#link">Inversores</Nav.Link> 
                      
+=======
+                     <Nav.Link href="#link">Inversores</Nav.Link>
+>>>>>>> 1350449348b0f34745b37acbd301310da56e9349
                  </Nav>
                 
                </Navbar.Collapse>
-               <DropdownB/>
+              
            </Container>
          </Navbar>
        );

@@ -1,15 +1,19 @@
 .about-container {
-display:flex;
-background-color: white;
-height: 70vh;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 70vh;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 3vh;
 }
 
 .about-desc1 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 55%;
-padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:45%;
+
 }
 
 .about-desc > h3 {
@@ -23,7 +27,31 @@ line-height: 1.5;
 
 .about-img1 {
 width: auto;
-display: flex;
-align-self:center;
+display: flexbox;
+align-self: flex-end;
 overflow:hidden;
+padding-left:50px
+}
+@media (max-width: 800px) {
+    .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+    .about-desc1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        width: 100%;
+        padding: 20px;
+    }
+    .about-img1{
+        overflow:visible;
+        padding: 20px;
+        
+    
+    }
 }
