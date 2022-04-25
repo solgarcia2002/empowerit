@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, from "react";
 import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap"; 
 import './Navbar.css';
  import DropdownB from './DropdownB';
@@ -25,7 +25,7 @@ export default function NavbarComp () {
                      </NavDropdown>
                      <Nav.Link href="#link">{t("nav-bar.investors")}</Nav.Link>
                  </Nav>
-                 <DropdownB/>
+                <DropdownB/>
                </Navbar.Collapse>
               
            </Container>

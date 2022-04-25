@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className='services-container'>
         <div className='services-img1'>
-           <img src='https://media.istockphoto.com/photos/group-of-businesswomen-collaborating-in-creative-meeting-around-table-picture-id1279113943?k=20&m=1279113943&s=612x612&w=0&h=-4qUq7x5tO_ubIOgzD45Na4lFoc7po_29Fc523QQJdw=' alt='about'/>
+           <img src='https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804__340.jpg' alt='about'/>
         </div>
         <div className='services-desc1'>
            <h3> Dejame decirte algo sobre nosotras </h3>

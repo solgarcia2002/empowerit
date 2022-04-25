@@ -1,0 +1,35 @@
+
+.info1, .info2, .info3{
+    color: black;
+    text-align: center;
+    
+    }
+
+.primer, .seg, .ter{
+    border-radius: 5%;
+    margin-left: 30%;
+    width: 40%;
+    align-content:center;
+    height: 50%; 
+      
+}
+.info > h3 {
+    
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+}
+.info > p {
+    font-size:small;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+background-color: #D5D6EA ;
+opacity: 80%;
+}
+.contenedor{
+   margin-bottom: 0px;
+   padding-top: 80px;
+   padding-bottom:  80px; 
+   
+   
+}
+

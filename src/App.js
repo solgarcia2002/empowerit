@@ -5,7 +5,10 @@ import Covers from "./componentes/Media/Covers";
 import './App.css';
 import About from './componentes/About/About';
 import Services from './componentes/Services/Services';
-import ControlledCarousel from './componentes/Carousel/Carousel';
+import ControlledCarousel from './componentes/Carousels/Carousels';
+import Msj from './componentes/Msj/Msj';
+import Footer from './componentes/Footer/Footer';
+
 
 import { useTranslation } from "react-i18next";
 
@@ -22,7 +25,9 @@ function Pass() {
              <About/>
              <Services/>
              <ControlledCarousel/>
-           </div>
+             <Msj/>
+             <Footer/>
+           </div>  
      </div >
   );
 }
