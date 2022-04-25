@@ -1,12 +1,17 @@
 import React, {Suspense} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './componentes/Navbar';
-import Covers from "./componentes/Media/Covers";
 import './App.css';
-import About from './componentes/About/About';
-import Services from './componentes/Services/Services';
-import ControlledCarousel from './componentes/Carousels/Carousels';
-import Msj from './componentes/Msj/Msj';
+import { 
+  BrowserRouter,
+  Route,
+  Routes,
+  } from "react-router-dom";
+import Home from './componentes/Pages/Home';
+import Inversores from './componentes/Pages/Inversores';
+import Servicios from './componentes/Pages/Servicios';
+import Trabajo from './componentes/Pages/Trabajo';
+import AboutUs from './componentes/Pages/AboutUs';
 import Footer from './componentes/Footer/Footer';
 
 
@@ -19,15 +24,21 @@ function Pass() {
   return (
 
      <div className='App'>
-       <NavbarComp/> 
-           <div>
-             <Covers/>
-             <About/>
-             <Services/>
-             <ControlledCarousel/>
-             <Msj/>
-             <Footer/>
-           </div>  
+
+       <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<NavbarComp/>}>
+              <Route path='home' element={ <Home/> }/>
+              <Route path='aboutUs' element={ <AboutUs/> }/>
+              <Route path='inversores' element={ <Inversores/> }/>
+              <Route path='servicios' element={ <Servicios/> }/>
+              <Route path='trabajo' element={ <Trabajo/> }/>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+          
+           
+        <div> <Footer/></div>           
      </div >
   );
 }
