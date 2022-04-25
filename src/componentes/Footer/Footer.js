@@ -11,7 +11,7 @@ const Footer = () => {
     className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
    
-    <div className="me-5 d-none d-lg-block">
+    <div className="me-5 d-none d-lg-block  ">
       <span>"La mejor manera de predecir el futuro es crearlo"</span>
     </div>
    
@@ -35,19 +35,18 @@ const Footer = () => {
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
        
           <h6 className="text-uppercase fw-bold mb-4">
-            Products
+            Foolow us
           </h6>
           <div>
-    <div classname="list-inline">
-                    <li>
+    <div classname="icons">
+                   
                         <a  target="_blank" rel='noreferrer'href="https://facebook.com" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
+                    
+                    
                         <a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>
-                    </li>
-                    <li>
+                    
                         <a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
-                    </li>
+                    
                 </div>
     </div>
   
@@ -94,7 +93,7 @@ const Footer = () => {
 
  
   <div className="text-center p-4" >
-    © 2022 Copyright:
+    © 2022 Copyright
     <a className="text-reset fw-bold" href="https://mdbootstrap.com/"> </a>
   </div>
  
