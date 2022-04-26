@@ -26,14 +26,15 @@ function Pass() {
      <div className='App'>
 
        <BrowserRouter>
+        <NavbarComp/>
           <Routes>
-            <Route path='/' element={<NavbarComp/>}>
-              <Route path='home' element={ <Home/> }/>
+            
+            <Route path='home' element={ <Home/> }/>
               <Route path='aboutUs' element={ <AboutUs/> }/>
               <Route path='inversores' element={ <Inversores/> }/>
               <Route path='servicios' element={ <Servicios/> }/>
               <Route path='trabajo' element={ <Trabajo/> }/>
-            </Route>
+            
           </Routes>
         </BrowserRouter>
           

@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import {I18nextProvider}from "react-i18next";
-import i18next from "i18next";
+
 
 import './config-ln/i18next-config';
 
