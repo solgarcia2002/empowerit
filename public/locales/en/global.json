@@ -1,4 +1,9 @@
 {
+    "lang-button": {
+        "lang":"Language",
+        "en":"English",
+        "es":"Spanish"
+    },
     "nav-bar": {
         "about":"About us",
         "our-job":"Our Job",

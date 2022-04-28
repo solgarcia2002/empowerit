@@ -28,32 +28,85 @@
     color: white;
     font-size: 32px;
 }
-Button:hover {
-    opacity: 50%;
+.btn-main{
+    position:relative;
+    display:inline-block;
+    width: auto;
+    height: auto;
+    background-color: #68c3cf;
+    border:none;
+    cursor: pointer;
+    margin:0px 25px 15px;
+    min-width: 150px;
+}
+.btn-main span{
+    position:relative;
+    display:inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:15px 20px;
+    transition:0.3s;
+}
+.btn-main::before{
+    background-color:#08b1b1 ;
+    transition: 0.3s ease-out;
+    position: absolute;
+    content: "";
+}
+.btn-main span{
+    color:white ;
+    
+    transition: 0.2s 0.1s;
+}
+.btn-main span:hover{
+    color: black;
+    transition: 0.2s 0.1s;
+}
+.btn-main.hover-filled-slide-up::before{
+    top:0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.btn-main.hover-filled-slide-up:hover::before{
+    height: 0%;
 }
 
-.imagen{
+
+.img{
     object-fit: cover;
     width: 100%;
     height: 100vh;
     position: absolute;
     z-index: -5;
 }
+@media (min-width: 770px){
+    .img{
+        display: none;
+    }
+}
 
-
-@media (max-width: 700px) {
+@media (max-width: 770px) {
     .cover-container{
         padding: 0;
-        height: 38vh;
+        height: 70vh;
         margin-top: 0;
     }
-    .cover-container > h1{
-        font-size: 40px;
-        padding-top: 15px;
-    }
+
+   
     .cover-container > p {
-        margin-top: 8px;
+        color:black;
+        
+        margin-top: 50vh;
         font-size: 15px;
         text-align: center;
     }
+   
 }

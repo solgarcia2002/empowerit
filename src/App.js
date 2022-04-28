@@ -29,7 +29,7 @@ function Pass() {
         <NavbarComp/>
           <Routes>
             
-            <Route path='home' element={ <Home/> }/>
+            <Route path='/' element={ <Home/> }/>
               <Route path='aboutUs' element={ <AboutUs/> }/>
               <Route path='inversores' element={ <Inversores/> }/>
               <Route path='servicios' element={ <Servicios/> }/>
