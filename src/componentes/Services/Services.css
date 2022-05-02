@@ -32,6 +32,7 @@ align-self: flex-start;
 overflow:hidden;
 padding-right:50px;
 }
+
 @media (max-width: 800px) {
     .services-container{
         display: flex;
@@ -51,7 +52,9 @@ padding-right:50px;
     }
     .services-img1{
         overflow:visible;
-        padding: 2vh;
-       
+        padding: 2vh; 
+    }
+    .services-desc1 > p {
+            text-align: justify;
     }
 }

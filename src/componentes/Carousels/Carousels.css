@@ -28,8 +28,16 @@ opacity: 80%;
 .contenedor{
    margin-bottom: 0px;
    padding-top: 80px;
-   padding-bottom:  80px; 
-   
-   
+   padding-bottom:  80px;
 }
+@media (max-width: 800px){
+    .primer, .seg, .ter{
+        width: 78%;
+        margin-left: 11%;
+    }
+}
+  
+    
+
+
 

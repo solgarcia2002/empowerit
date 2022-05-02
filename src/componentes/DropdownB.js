@@ -8,8 +8,8 @@ export default function DropdownB () {
 
     return ( 
         <div className='idioma'>
-           <Container expand="lg">
-            <DropdownButton id="dropdown-basic-button" title="Idioma">
+           <Container expand="lg" bg = 'dark' >
+            <DropdownButton id="dropdown-basic-button" title="Idioma" >
               <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>Español </Dropdown.Item>
               <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>Ingles </Dropdown.Item>
             </DropdownButton>

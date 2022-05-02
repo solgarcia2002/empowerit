@@ -52,7 +52,8 @@ padding-left:50px
     .about-img1{
         overflow:visible;
         padding: 20px;
-        
-    
+    }
+    .about-desc1 > p {
+     text-align: justify;
     }
 }

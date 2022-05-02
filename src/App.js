@@ -2,16 +2,12 @@ import React, {Suspense} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './componentes/Navbar';
 import './App.css';
-import { 
-  BrowserRouter,
-  Route,
-  Routes,
-  } from "react-router-dom";
+import { BrowserRouter, Route,Routes,} from "react-router-dom";
 import Home from './componentes/Pages/Home';
 import Inversores from './componentes/Pages/Inversores';
 import Servicios from './componentes/Pages/Servicios';
 import Trabajo from './componentes/Pages/Trabajo';
-import AboutUs from './componentes/Pages/AboutUs';
+import Nosotros from './componentes/Pages/Nosotros';
 import Footer from './componentes/Footer/Footer';
 
 
@@ -30,7 +26,7 @@ function Pass() {
           <Routes>
             
             <Route path='home' element={ <Home/> }/>
-              <Route path='aboutUs' element={ <AboutUs/> }/>
+              <Route path='nosotros' element={ <Nosotros/> }/>
               <Route path='inversores' element={ <Inversores/> }/>
               <Route path='servicios' element={ <Servicios/> }/>
               <Route path='trabajo' element={ <Trabajo/> }/>
