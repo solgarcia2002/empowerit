@@ -4,7 +4,7 @@ import './Navbar.css';
 import DropdownB from './DropdownB';
 import {Outlet,Link,} from "react-router-dom";
 import { Dropdown} from "react-bootstrap"
-
+import Logo from './imagenes/Empowerit.png';
 import { useTranslation } from "react-i18next";
 
  
@@ -14,7 +14,16 @@ import { useTranslation } from "react-i18next";
          <>
          <Navbar bg="light" expand="lg">
            <Container className='contenido'>
-             <Navbar.Brand as={Link} to= 'home' > Empowerit</Navbar.Brand>
+             <Navbar.Brand  id='empowerit' as={Link} to= '/' >
+               <img
+                  src={Logo}
+                  width="120"
+                  height="auto"
+                  className="d-inline-block align-top"
+                  alt="empowerit-logo"
+               />
+             </Navbar.Brand>
+             
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
@@ -31,7 +40,7 @@ import { useTranslation } from "react-i18next";
                         <Dropdown.Menu>
                            <Dropdown.Item rel='noreferrer'href="https://gmail.com" class="me-4 text-reset"><i class="bi bi-envelope"></i></Dropdown.Item>
                            <Dropdown.Item rel='noreferrer'href="https://whatsapp"  class="me-4 text-reset"><i class="bi bi-whatsapp"></i></Dropdown.Item>
-                           <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+                           <Nav.Link as={Link} to= '/form'>{t('nav-bar.form')}</Nav.Link> 
                         </Dropdown.Menu>
                      </Dropdown>
                      </NavDropdown>

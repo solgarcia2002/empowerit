@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
 import {Container, Dropdown, DropdownButton} from "react-bootstrap"
+import './DropdownB.css';
 
 
 export default function DropdownB () {
@@ -8,10 +9,10 @@ export default function DropdownB () {
 
     return ( 
         <div className='idioma'>
-           <Container expand="lg" bg = 'dark' >
-            <DropdownButton id="dropdown-basic-button" title="Idioma" >
-              <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>Español </Dropdown.Item>
-              <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>Ingles </Dropdown.Item>
+           <Container expand="lg">
+            <DropdownButton id="dropdown-basic-button" title={t('lang-button.lang')}>
+              <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>{t('lang-button.es')} </Dropdown.Item>
+              <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>{t('lang-button.en')} </Dropdown.Item>
             </DropdownButton>
            </Container>
         </div>

@@ -9,7 +9,7 @@ import Servicios from './componentes/Pages/Servicios';
 import Trabajo from './componentes/Pages/Trabajo';
 import Nosotros from './componentes/Pages/Nosotros';
 import Footer from './componentes/Footer/Footer';
-
+import { Form } from './componentes/Forms/Form';
 
 import { useTranslation } from "react-i18next";
 
@@ -25,7 +25,7 @@ function Pass() {
         <NavbarComp/>
           <Routes>
             
-            <Route path='home' element={ <Home/> }/>
+            <Route path='/' element={ <Home/> }/>
               <Route path='nosotros' element={ <Nosotros/> }/>
               <Route path='inversores' element={ <Inversores/> }/>
               <Route path='servicios' element={ <Servicios/> }/>
@@ -34,7 +34,7 @@ function Pass() {
           </Routes>
         </BrowserRouter>
           
-           
+        <Form/>
         <div> <Footer/></div>           
      </div >
   );

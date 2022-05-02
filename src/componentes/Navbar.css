@@ -1,14 +1,15 @@
+
 .navbar{
     position: fixed;
     top: 0;
     z-index: 2;
-    
     width: 100%;
-    opacity: 80%;
+}
+.logo-link{
+    width: 20px;
 }
 
+
 @media (max-width: 700px) {
-    .navbar{
-        position:relative ;
-    }
+   
 }

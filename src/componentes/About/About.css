@@ -27,13 +27,17 @@ line-height: 1.5;
 }
 
 .about-img1 {
-width: auto;
+height: 400px;
+width: 450px;
 display: flexbox;
 align-self: flex-end;
 overflow:hidden;
-padding-left:50px
+padding-left:50px;
+mask-image:linear-gradient(to left,rgba(0,0,0,1.0) 50%,transparent 90%);
 }
-@media (max-width: 800px) {
+
+
+@media (max-width: 970px) {
     .about-container{
         display: flex;
         flex-wrap: wrap;
@@ -50,10 +54,10 @@ padding-left:50px
         padding: 20px;
     }
     .about-img1{
+        
         overflow:visible;
         padding: 20px;
-    }
-    .about-desc1 > p {
-     text-align: justify;
+        mask-image:linear-gradient(to top,rgba(0,0,0,1.0) 50%,transparent 90%);
+       
     }
 }
