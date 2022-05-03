@@ -10,5 +10,8 @@
         "our-job":"Nuestro Trabajo",
         "services":"Nuestros Servicios",
         "investors":"Inversores"
+    },
+    "cover": {
+        "text":"Tus socios en el Liderazgo del Futuro"
     }
 }

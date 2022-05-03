@@ -1,0 +1,47 @@
+.cont-todo{
+    justify-content: center;
+    flex: auto;
+}
+.cont-img{
+    display:block;
+    overflow:hidden ;
+    width: 100%;
+    height: 300px;
+    border:0 
+}
+
+.portada{
+    width: 100%;
+    position: relative;
+    padding: 0;
+    top:-40vh;
+    filter:blur(5px);
+    
+}
+.titulo-portada{
+    display: flex;
+    position:absolute;
+    top:30vh;
+    color:white;
+    padding-left: 40%;
+    text-shadow:1px 1px 2px black;
+    
+}
+.cont-texto{
+    flex: content;
+    justify-items: center;
+    width: 100%;
+}
+.texto{
+    position: relative;
+    padding: 10vh 20vh;
+    color:black;
+    text-align: center;
+    
+}
+@media (max-width:800px) {
+    .portada{
+        top:-10vh;
+        filter:blur(2px);
+    }
+}

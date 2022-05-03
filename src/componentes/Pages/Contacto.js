@@ -1,13 +1,21 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
+import {Form} from '../Forms/Form';
+
+
+
 
 const Contacto = () => {
   const {t} = useTranslation ();
     return (
     <div>
-        <h1>Inversores </h1>
+      
+      <Form/>
+
     </div>
   )
 }
 
 export default Contacto;
+
+

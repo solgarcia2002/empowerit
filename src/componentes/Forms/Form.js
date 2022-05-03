@@ -39,7 +39,7 @@ export const Form = () => {
         <input type="text" name='company' />
         <hr />
 
-        <label>Ciudada</label>
+        <label>Ciudad</label>
         <input type="text" name='city' />
         <hr />
 
@@ -54,7 +54,7 @@ export const Form = () => {
         <label>Message</label>
         <textarea name="user_message" id="" cols="30" rows="10"></textarea>
         <hr />
-        <button>Send</button>
+        <button className='send-button'>Send</button>
       </form>
     </div>
   )

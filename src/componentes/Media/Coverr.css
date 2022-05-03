@@ -21,12 +21,15 @@
 .cover-container > h1{
     color: white;
     font-size: 100px;
+    font-family: 'Khand', sans-serif;
+    text-shadow: 1px 1px 2px black;
 }
 
 .cover-container > p {
     margin-top: 8px;
     color: white;
     font-size: 32px;
+    text-shadow: 1px 1px 2px black;
 }
 .btn-main{
     position:relative;
@@ -98,12 +101,13 @@
         padding: 0;
         height: 70vh;
         margin-top: 0;
+        text-shadow: none;
     }
 
    
     .cover-container > p {
         color:black;
-        
+        text-shadow: none;
         margin-top: 50vh;
         font-size: 15px;
         text-align: center;

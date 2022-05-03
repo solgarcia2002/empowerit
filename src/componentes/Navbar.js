@@ -27,19 +27,20 @@ import { useTranslation } from "react-i18next";
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
-                     <Nav.Link as={Link} to= '/nosotros'>{t('nav-bar.us')}</Nav.Link>
-                     <Nav.Link as={Link} to= '/trabajo'>{t('nav-bar.our-job')}</Nav.Link>
-                     <NavDropdown title={t('nav-bar.services')} id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Desafio</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Solucion</NavDropdown.Item>
-                        <Dropdown className="d-inline mx-2" autoClose="outside">
-                        <Button variant="outline-primary" as={Link} to= '/contacto'>{t('nav-bar.contact')}</Button>
-                     </Dropdown>
+                     <NavDropdown title='Nuestros Servicios' id="basic-nav-dropdown">
+                        <NavDropdown.Item as={Link} to= '/desafio'>Desafio</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/soluciones'>Soluciones</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/contacto'>Contactanos</NavDropdown.Item>
                      </NavDropdown>
-                     <Nav.Link as={Link} to= '/contacto'>{t('nav-bar.contact')}</Nav.Link> 
+
+                     <Nav.Link as={Link} to= '/our-job'>{t('nav-bar.our-job')}</Nav.Link>
+                     <Nav.Link as={Link} to= '/unete'>Unete a Nosotros</Nav.Link>
+                     <Nav.Link as={Link} to= '/contacto'>Contacto</Nav.Link> 
+                  
                      
                   </Nav>
-                <DropdownB/>
+               <DropdownB/>
+
                </Navbar.Collapse>
               
             </Container>

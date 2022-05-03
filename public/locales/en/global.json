@@ -9,5 +9,8 @@
         "our-job":"Our Job",
         "services":"Services",
         "investors":"Investors"
+    },
+    "cover": {
+        "text":"Technology improves when it brings people together"
     }
 }

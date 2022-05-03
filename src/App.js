@@ -5,11 +5,12 @@ import './App.css';
 import { BrowserRouter, Route,Routes,} from "react-router-dom";
 import Home from './componentes/Pages/Home';
 import Contacto from './componentes/Pages/Contacto';
-import Servicios from './componentes/Pages/Servicios';
+import Desafio from './componentes/Pages/Desafio';
 import Trabajo from './componentes/Pages/Trabajo';
-import Nosotros from './componentes/Pages/Nosotros';
+import Unete from './componentes/Pages/Unete';
+import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
-import { Form } from './componentes/Forms/Form';
+
 
 import { useTranslation } from "react-i18next";
 
@@ -26,15 +27,16 @@ function Pass() {
           <Routes>
             
             <Route path='/' element={ <Home/> }/>
-              <Route path='nosotros' element={ <Nosotros/> }/>
-              <Route path='contacto' element={ <Contacto/> }/>
-              <Route path='servicios' element={ <Servicios/> }/>
-              <Route path='trabajo' element={ <Trabajo/> }/>
+              <Route path='/desafio' element={ <Desafio/> }/>
+              <Route path='/soluciones' element={ <Soluciones/> }/>
+              <Route path='/our-job' element={ <Trabajo/> }/>
+              <Route path='/unete' element={ <Unete/> }/>
+              <Route path='/contacto' element={ <Contacto/> }/>
             
           </Routes>
         </BrowserRouter>
           
-        <Form/>
+        
         <div> <Footer/></div>           
      </div >
   );
