@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Cookie&family=Fuzzy+Bubbles&family=Lobster&family=Pacifico&family=Redressed&family=Shadows+Into+Light&family=Vujahday+Script&display=swap');
 
-body {
+.div-form {
   margin: 0;
   padding: 0;  
   width: 100vw;
@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-h1 {
+.title-form {
   color: black;
   font-size: 40px;
   font-weight: 100;
@@ -52,7 +52,7 @@ textarea {
   padding: 0.5rem;
 }
 
-button {
+.send-button {
   width: 8rem;
   border-radius: 20px;
   font-size: 1.2rem;
@@ -62,8 +62,8 @@ button {
   opacity: 90%;
 }
 
-button:hover,
-button:focus {
+.send-button:hover,
+.send-button:focus {
   font-size: 1.5rem;
   font-weight: 700;
   color: black;

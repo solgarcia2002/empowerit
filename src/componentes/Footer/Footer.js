@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
        
           <h6 className="text-uppercase fw-bold mb-4">
-            Foolow us
+            Follow us
           </h6>
           <div>
     <div classname="icons">

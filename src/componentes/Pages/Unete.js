@@ -1,13 +1,13 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
 
-const Nosotros = () => {
+function Unete ()  {
   const {t} = useTranslation ();
     return (
     <div>
-        <h1>About </h1>
+        <h1>Unete </h1>
     </div>
   )
 }
 
-export default Nosotros
+export default Unete;

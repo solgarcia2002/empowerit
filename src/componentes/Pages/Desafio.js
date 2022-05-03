@@ -1,13 +1,13 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
 
-function Servicios ()  {
+function Desafio ()  {
   const {t} = useTranslation ();
     return (
     <div>
-        <h1>servicios </h1>
+        <h1>Desafio </h1>
     </div>
   )
 }
 
-export default Servicios
+export default Desafio;

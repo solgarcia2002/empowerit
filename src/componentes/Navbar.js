@@ -27,27 +27,20 @@ import { useTranslation } from "react-i18next";
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
-                     <Nav.Link as={Link} to= '/nosotros'>{t('nav-bar.nosotros')}</Nav.Link>
-                     <Nav.Link as={Link} to= '/trabajo'>{t('nav-bar.our-job')}</Nav.Link>
-                     <NavDropdown title={t('nav-bar.services')} id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Desafio</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Solucion</NavDropdown.Item>
-                        <Dropdown className="d-inline mx-2" autoClose="outside">
-                        <Dropdown.Toggle id="dropdown-autoclose-outside">
-                           Contactanos
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                           <Dropdown.Item rel='noreferrer'href="https://gmail.com" class="me-4 text-reset"><i class="bi bi-envelope"></i></Dropdown.Item>
-                           <Dropdown.Item rel='noreferrer'href="https://whatsapp"  class="me-4 text-reset"><i class="bi bi-whatsapp"></i></Dropdown.Item>
-                           <Nav.Link as={Link} to= '/form'>{t('nav-bar.form')}</Nav.Link> 
-                        </Dropdown.Menu>
-                     </Dropdown>
+                     <NavDropdown title='Nuestros Servicios' id="basic-nav-dropdown">
+                        <NavDropdown.Item as={Link} to= '/desafio'>Desafio</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/soluciones'>Soluciones</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/contacto'>Contactanos</NavDropdown.Item>
                      </NavDropdown>
-                     <Nav.Link as={Link} to= '/inversores'>{t('nav-bar.investors')}</Nav.Link> 
+
+                     <Nav.Link as={Link} to= '/our-job'>{t('nav-bar.our-job')}</Nav.Link>
+                     <Nav.Link as={Link} to= '/unete'>Unete a Nosotros</Nav.Link>
+                     <Nav.Link as={Link} to= '/contacto'>Contacto</Nav.Link> 
+                     <Nav.Link as={Link} to= '/compromiso'>Compromiso</Nav.Link> 
                      
                   </Nav>
-                <DropdownB/>
+               <DropdownB/>
+
                </Navbar.Collapse>
               
             </Container>

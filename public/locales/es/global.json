@@ -10,5 +10,8 @@
         "our-job":"Nuestro Trabajo",
         "services":"Nuestros Servicios",
         "investors":"Inversores"
+    },
+    "cover": {
+        "text":"La tecnologia mejora cuando junta a las personas"
     }
 }
