@@ -13,7 +13,7 @@ const Covers = () => {
       
       <img className=	'.d-none .d-lg-none .d-md-none img'  src ={Fondo} alt='fondo'/>
       <h1 className='d-none d-md-block .d-lg-none h1'> Empowerit</h1>  
-      <p> "La tecnología es mejor cuando junta a las personas" </p>
+      <p> " Queremos ser tus socios en el liderazgo del futuro " </p>
       
       
       <button className='btn-main hover-filled-slide-up'>

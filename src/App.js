@@ -4,7 +4,7 @@ import NavbarComp from './componentes/Navbar';
 import './App.css';
 import { BrowserRouter, Route,Routes,} from "react-router-dom";
 import Home from './componentes/Pages/Home';
-import Inversores from './componentes/Pages/Inversores';
+import Contacto from './componentes/Pages/Contacto';
 import Servicios from './componentes/Pages/Servicios';
 import Trabajo from './componentes/Pages/Trabajo';
 import Nosotros from './componentes/Pages/Nosotros';
@@ -27,7 +27,7 @@ function Pass() {
             
             <Route path='/' element={ <Home/> }/>
               <Route path='nosotros' element={ <Nosotros/> }/>
-              <Route path='inversores' element={ <Inversores/> }/>
+              <Route path='contacto' element={ <Contacto/> }/>
               <Route path='servicios' element={ <Servicios/> }/>
               <Route path='trabajo' element={ <Trabajo/> }/>
             

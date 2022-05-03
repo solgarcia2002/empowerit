@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
 
-const Inversores = () => {
+const Contacto = () => {
   const {t} = useTranslation ();
     return (
     <div>
@@ -10,4 +10,4 @@ const Inversores = () => {
   )
 }
 
-export default Inversores
+export default Contacto;

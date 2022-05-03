@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import emailjs from '@emailjs/browser';
-import './Form.css';
+
 
 
 export const Form = () => {
