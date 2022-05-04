@@ -3,7 +3,7 @@ import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap";
 import './Navbar.css';
 import DropdownB from './DropdownB';
 import {Outlet,Link,} from "react-router-dom";
-import { Dropdown} from "react-bootstrap"
+
 import Logo from './imagenes/Empowerit.png';
 import { useTranslation } from "react-i18next";
 
