@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -35,7 +36,7 @@ const Footer = () => {
         
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
        
-          <h6 className="text-uppercase fw-bold mb-4">
+          <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
             Follow us
           </h6>
           <div>
