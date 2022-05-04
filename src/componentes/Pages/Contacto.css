@@ -1,16 +1,18 @@
-.cont-todo{
+.cont-todocontact{
     justify-content: center;
     flex: auto;
+ 
 }
 
-.cont-img{
-    display:block;
+.cont-imgContact{
     overflow:hidden ;
     width: 100%;
-    height: 400px;
+    height: 800px;
     border:0;
+    padding-top:300px;
+    padding-bottom: 200px;
 }
-.soluPortada{
+.contPortada{
     width: 100%;
     position: relative;
     padding: 0;
@@ -18,17 +20,22 @@
     filter:blur(2px);
     
 }
-.titulo-portada{
+.cont-textoContact{
+    position: absolute;
+    text-align: center;
+    
+}
+.titulo-portadaCont{
     display: flex;
     position:absolute;
     top:30vh;
     color:white;
     padding-left: 40%;
     text-shadow:1px 1px 2px black;
-    
+    text-align: center;
 }
 
-.texto{
+.textoCont{
     display: flex;
     position:absolute;
     top:30vh;
@@ -37,7 +44,6 @@
     text-align: center;
     font-size:xx-large;
 }
-
 .btn-main{
     position:relative;
     display:inline-block;
@@ -87,17 +93,4 @@
 }
 .btn-main.hover-filled-slide-up:hover::before{
     height: 0%;
-}
-
-@media screen and (max-width: 960px) {
-  .cont-texto > .titulo-portada {
-      font-size: 50px;
-      text-align: center;
-      padding-left: 15%;
-  }  
-  .cont-texto > .texto{
-      text-align: center;
-      font-size: 22px;
-      width: 85%;
-  }
 }
