@@ -13,7 +13,7 @@ const Footer = () => {
   >
    
     <div className="me-5 d-none d-lg-block  ">
-      <span>"La mejor manera de predecir el futuro es crearlo"</span>
+      <span></span>
     </div>
    
   </section>
@@ -28,6 +28,7 @@ const Footer = () => {
           <h6 className="text-uppercase fw-bold mb-4">
             <i className="fas fa-gem me-3"></i>Empowerit
           </h6>
+          <p>"Tus socios en el liderazgo del Futuro"</p>
           <p>
           Get connected with us on social networks:
           </p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Nav, Navbar, NavDropdown } from "react-bootstrap"; 
+import { Container,Nav, Navbar, NavDropdown, Button } from "react-bootstrap"; 
 import './Navbar.css';
 import DropdownB from './DropdownB';
 import {Outlet,Link,} from "react-router-dom";
@@ -36,7 +36,7 @@ import { useTranslation } from "react-i18next";
                      <Nav.Link as={Link} to= '/our-job'>{t('nav-bar.our-job')}</Nav.Link>
                      <Nav.Link as={Link} to= '/unete'>Unete a Nosotros</Nav.Link>
                      <Nav.Link as={Link} to= '/contacto'>Contacto</Nav.Link> 
-                     <Nav.Link as={Link} to= '/compromiso'>Compromiso</Nav.Link> 
+                  
                      
                   </Nav>
                <DropdownB/>

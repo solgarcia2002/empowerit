@@ -13,7 +13,7 @@ const Trabajo = () => {
         
         <h1 className="titulo-portada">Nuestro Trabajo</h1>
         <div className="cont-texto">
-          <p className="texto">If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.</p>
+          <p className="texto">Trabajamos en tus proyectos con un equipo de profesionales que le brindará solucion a tus necesidades tecnológicas. Evaluamos la mejor solución para aumentar sus ventas, comprometidos para hacer que ustedes y sus productos se destaquen  en el mercado. Somos los socios de tu próximo éxito con tecnología de última generación.</p>
         </div>
       </div>
   )

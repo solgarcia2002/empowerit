@@ -7,7 +7,6 @@ import Home from './componentes/Pages/Home';
 import Contacto from './componentes/Pages/Contacto';
 import Desafio from './componentes/Pages/Desafio';
 import Trabajo from './componentes/Pages/Trabajo';
-import Compromiso from './componentes/Pages/Compromiso';
 import Unete from './componentes/Pages/Unete';
 import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
@@ -33,7 +32,6 @@ function Pass() {
               <Route path='/our-job' element={ <Trabajo/> }/>
               <Route path='/unete' element={ <Unete/> }/>
               <Route path='/contacto' element={ <Contacto/> }/>
-              <Route path='/compromiso' element={ <Compromiso/> }/>
             
           </Routes>
         </BrowserRouter>
