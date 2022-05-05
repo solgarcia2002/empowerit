@@ -3,7 +3,7 @@ import { useTranslation} from "react-i18next";
 import './Portada.css';
 import { Link } from 'react-router-dom';
 function Soluciones ()  {
-  const {t} = useTranslation ();
+  const {t} = useTranslation (["global"]);
     
   return(
 
@@ -13,14 +13,14 @@ function Soluciones ()  {
            
        </div>  
         <div className="cont-texto">
-               <h1 className="titulo-portada">Nuestro Servicio</h1>
-               <p className="texto">Ponemos a tus pies la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado.</p>
+               <h1 className="titulo-portada">{t("solutions.title")}</h1>
+               <p className="texto">{t("solutions.text")}</p>
         </div>
        
         <div className='cont-button'>
             <button  className='btn-main hover-filled-slide-up '>
               <Link to="/contacto">
-                <span> Contacto </span>
+                <span>{t("contact-button")} </span>
               </Link>
             </button>
           </div>

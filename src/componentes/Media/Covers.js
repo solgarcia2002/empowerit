@@ -20,7 +20,7 @@ const Covers = () => {
         
         
         <button className='btn-main hover-filled-slide-up'>
-          <span>Ver mas</span>
+          <span>{t("cover.button")}</span>
         </button>
       </div>
     )

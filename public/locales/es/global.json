@@ -4,14 +4,69 @@
         "en":"Inglés",
         "es":"Español"
     },
+    "contact-button":"Contacto",
+
+    "form-button":"Escribenos",
 
     "nav-bar": {
-        "about":"Sobre nosotros",
-        "our-job":"Nuestro Trabajo",
         "services":"Nuestros Servicios",
-        "investors":"Inversores"
+        "challenge":"Desafio",
+        "solutions":"Soluciones",
+        "contact-us":"Contáctanos",
+        "our-job":"Nuestro Trabajo",
+        "follow":"Unete a Nosotros",
+        "contact":"Contacto"
     },
     "cover": {
-        "text":"Tus socios en el Liderazgo del Futuro"
+        "text":"Tus socios en el Liderazgo del Futuro",
+        "button":"Ver Mas"
+    },
+    "about": {
+        "title":"Dejame decirte algo sobre nosotros",
+        "text":"Somos quienes te impulsaran al éxito empoderando tu transformación digital. La solución a tus necesidades digitales es nuestra especialidad y acompañarte al éxito es nuestra meta."
+    },
+    "services": {
+        "title":"Nuestro Trabajo",
+        "text":"Ponemos a tus pies la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado."
+    },
+    "footer":{
+        "networks":"Conéctate con nosotros en las redes sociales:",
+        "follow":"Seguinos",
+        "links":"Links de interés"
+    },
+    "challenge":{
+        "title":"Nuestro Desafío",
+        "text":"Te ofrecemos un equipo de trabajo sólido e innovador a tu disposición que te brindará conocimientos, que harán que tus ideas innoven en el mundo."
+    },
+    "solutions":{
+        "title":"Soluciones",
+        "text":"Ponemos a tus pies la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado."
+    },
+    "our-job":{
+        "title":"Nuestro Trabajo",
+        "text":"Trabajamos en tus proyectos con un equipo de profesionales que le brindará solución a tus necesidades tecnológicas. Evaluamos la mejor solución para aumentar sus ventas, comprometidos para hacer que ustedes y sus productos se destaquen  en el mercado. Somos los socios de tu próximo éxito con tecnología de última generación."
+    },
+    "join-up":{
+        "title":"Únete a Nosotros",
+        "text":"Si querés formar parte de un equipo de trabajo en el que se valore el ambiente laboral, el aprendizaje y superarnos día a día envíanos tu CV."
+    },
+    "contact":{
+        "title":"",
+        "text":"Mandanos un mensaje. Nuestro equipo se pondrá en contacto contigo."
+    },
+    "form":{
+        "title":"Contáctanos",
+        "f-name":"Nombre",
+        "l-name":"Apellido",
+        "email":"correo electrónico",
+        "prof":"Título Profesional",
+        "company":"Empresa",
+        "city":"Ciudad",
+        "country":"País",
+        "number":"Número de Contacto",
+        "message":"Mensaje",
+        "reg":"Me gustaría registrarme con mi dirección de correo electrónico para recibir comunicaciones de Empowerit",
+        "button":"Enviar"
     }
+
 }

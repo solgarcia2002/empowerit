@@ -4,13 +4,69 @@
         "en":"English",
         "es":"Spanish"
     },
+    "contact-button":"Contact",
+
+    "form-button":"Drop us a line",
+
     "nav-bar": {
-        "about":"About us",
+        "services":"Our Services",
+        "challenge":"Challenge",
+        "solutions":"Solutions",
+        "contact-us":"Contact us",
         "our-job":"Our Job",
-        "services":"Services",
-        "investors":"Investors"
+        "follow":"Join up",
+        "contact":"Contact"
     },
+    
     "cover": {
-        "text":"Technology improves when it brings people together"
+        "text":"Your partners in the leadership of the future",
+        "button":"See More"
+    },
+    "about": {
+        "title":"Let me tell you something about us",
+        "text":"We are the ones who will drive you to success by empowering your digital transformation. The solution to your digital needs is our specialty and accompanying you to success is our goal."
+    },
+    "services": {
+        "title":"Our Job",
+        "text":"We place engineering, innovation and design at your services to create unique products that will make you stand out in the market."
+    },
+    "footer":{
+        "networks":"Get connected with us on social networks:",
+        "follow":"Follow us",
+        "links":"Useful links"
+    },
+    "challenge":{
+        "title":"Our Challenge",
+        "text":"We offer you a solid and innovative work team at your disposal that will provide you with knowledge, that will make your ideas innovate in the world"
+    },
+    "solutions":{
+        "title":"Solutions",
+        "text":"We place engineering, innovation and design at your services to create unique products that will make you stand out in the market."
+    },
+    "our-job":{
+        "title":"Our Job",
+        "text":"We work on your projects with a team of professionals that will provide solutions to your technological needs. We evaluate the best solution to increase your sales, committed to making you and your products stand out in the market. We are the partners of your next success with state-of-the-art technology."
+    },
+    "join-up":{
+        "title":"Join Up",
+        "text":"If you want to be part of a work team in which the work environment, learning and improving ourselves day by day are valued, send us your CV"
+    },
+    "contact":{
+        "title":"",
+        "text":"Send us a message. Our team will contact you."
+    },
+    "form":{
+        "title":"Contact Us",
+        "f-name":"First Name",
+        "l-name":"Last Name",
+        "email":"E-mail",
+        "prof":"Professional Title",
+        "company":"Company",
+        "city":"City",
+        "country":"Country",
+        "number":"Contact Number",
+        "message":"Message",
+        "reg":"I would like to sign up with my email address to receive communications from Empowerit",
+        "button":"Send"
     }
 }
