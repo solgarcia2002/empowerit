@@ -28,6 +28,7 @@ const Contacto = () => {
         <button className='btn-main hover-filled-slide-up'>
         <span>Contactanos</span>
       </button>
+        
         <Formulario/>
       </div>
     

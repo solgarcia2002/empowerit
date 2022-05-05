@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 
 
 
+
 const Covers = () => {
   const {t, i18n} = useTranslation(["global"]);
 
@@ -19,7 +20,7 @@ const Covers = () => {
         
         
         <button className='btn-main hover-filled-slide-up'>
-          <span>Ver más</span>
+          <span>Ver mas</span>
         </button>
       </div>
     )
