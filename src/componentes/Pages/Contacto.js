@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
-import Formulario from '..Forms/Formulario.js';
+import Formulario from '../Forms/Formulario';
 import './Portada.css';
 
 
@@ -19,9 +19,7 @@ const Contacto = () => {
         <div className="cont-texto">
           <p className="texto">Ponemos a tus pies la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado.</p>
         </div>
-        <button className='btn-main hover-filled-slide-up'>
-        <span>Contactanos</span>
-      </button>
+        
         <Formulario/>
       </div>
     

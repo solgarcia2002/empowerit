@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation} from "react-i18next";
 import './Portada.css';
+import { Link } from 'react-router-dom';
 
 
 function Unete ()  {
@@ -18,7 +19,9 @@ function Unete ()  {
         </div>
         <div className='cont-button'>
           <button  className='btn-main hover-filled-slide-up '>
-            <span>Contactanos</span>
+            <Link to="/contacto">
+              <span> Contacto </span>
+            </Link>
           </button>
         </div>
 
