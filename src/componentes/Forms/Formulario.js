@@ -2,7 +2,6 @@ import React from 'react'
 import Form from 'react-bootstrap/Form'
 import { Button,} from 'bootstrap'
 import emailjs from '@emailjs/browser';
-import { FormLabel } from 'react-bootstrap';
 import './Formulario.css';
 
 const Formulario = () => {
