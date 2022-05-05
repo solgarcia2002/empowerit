@@ -1,10 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 
 
 const Footer = () => {
+  const {t, i18n} = useTranslation(["global"]);
     return (
      
 <footer className="text-center text-lg-start bg-light text-muted">
@@ -23,13 +25,13 @@ const Footer = () => {
           <h6 className="text-uppercase fw-bold mb-4">
             <i className="fas fa-gem me-3"></i>Empowerit
           </h6>
-          <p>"Tus socios en el liderazgo del Futuro"</p>
-          <p>Get connected with us on social networks:</p>
+          <p>{t("cover.text")}</p>
+          <p>{t("footer.networks")}</p>
         </div>
         
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
-            Follow us
+            {t("footer.follow")}
           </h6>
           
           <div>
@@ -43,26 +45,26 @@ const Footer = () => {
        
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 className="text-uppercase fw-bold mb-4">
-            Useful links
+            {t("footer.links")}
           </h6>
           <p>
-            <a href="/desafio" class="text-reset">Desafio</a>
+            <a href="/desafio" class="text-reset">{t("nav-bar.challenge")}</a>
           </p>
           <p>
-            <a href="/soluciones" class="text-reset">Soluciones</a>
+            <a href="/soluciones" class="text-reset">{t("nav-bar.solutions")}</a>
           </p>
           <p>
-            <a href="our-job" class="text-reset">Nuestro Trabajo</a>
+            <a href="our-job" class="text-reset">{t("nav-bar.our-job")}</a>
           </p>
           <p>
-            <a href="unete" class="text-reset">Unete a Nosotros</a>
+            <a href="unete" class="text-reset">{t("nav-bar.follow")}</a>
           </p>
         </div>
        
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           
           <h6 className="text-uppercase fw-bold mb-4">
-            Contact
+            {t("nav-bar.contact")}
           </h6>
           <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
           <p>

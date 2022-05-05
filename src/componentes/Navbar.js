@@ -27,15 +27,15 @@ import { useTranslation } from "react-i18next";
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
-                     <NavDropdown title='Nuestros Servicios' id="basic-nav-dropdown">
-                        <NavDropdown.Item as={Link} to= '/desafio'>Desafio</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to= '/soluciones'>Soluciones</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to= '/contacto'>Contactanos</NavDropdown.Item>
+                     <NavDropdown title={t("nav-bar.services")} id="basic-nav-dropdown">
+                        <NavDropdown.Item as={Link} to= '/desafio'>{t("nav-bar.challenge")}</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/soluciones'>{t("nav-bar.solutions")}</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/contacto'>{t("nav-bar.contact-us")}</NavDropdown.Item>
                      </NavDropdown>
 
                      <Nav.Link as={Link} to= '/our-job'>{t('nav-bar.our-job')}</Nav.Link>
-                     <Nav.Link as={Link} to= '/unete'>Unete a Nosotros</Nav.Link>
-                     <Nav.Link as={Link} to= '/contacto'>Contacto</Nav.Link> 
+                     <Nav.Link as={Link} to= '/unete'>{t("nav-bar.follow")}</Nav.Link>
+                     <Nav.Link as={Link} to= '/contacto'>{t("nav-bar.contact")}</Nav.Link> 
                   
                      
                   </Nav>
