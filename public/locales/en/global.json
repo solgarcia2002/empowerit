@@ -5,6 +5,9 @@
         "es":"Spanish"
     },
     "contact-button":"Contact",
+
+    "form-button":"Drop us a line",
+
     "nav-bar": {
         "services":"Our Services",
         "challenge":"Challenge",

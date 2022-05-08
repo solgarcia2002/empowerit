@@ -1,8 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form'
-import { Button,} from 'bootstrap'
 import emailjs from '@emailjs/browser';
-import { FormLabel } from 'react-bootstrap';
 import './Formulario.css';
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +14,7 @@ const Formulario = () => {
         .catch(error => console.log(error))
       }
       return (
+          
         <div className='div-form'>
           <h1 className='title-form'>{t("form.title")}</h1>
           <form className='form-mail' onSubmit={sendEmail}>

@@ -11,6 +11,7 @@ import Unete from './componentes/Pages/Unete';
 import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
 import { useTranslation } from "react-i18next";
+import Formulario from './componentes/Forms/Formulario';
 
 
 
@@ -31,7 +32,7 @@ function Pass() {
               <Route path='/our-job' element={ <Trabajo/> }/>
               <Route path='/unete' element={ <Unete/> }/>
               <Route path='/contacto' element={ <Contacto/> }/>
-            
+              <Route path='/formulario' element={ <Formulario/> }/>
           </Routes>
         </BrowserRouter>
           
