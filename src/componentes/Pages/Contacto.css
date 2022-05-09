@@ -13,6 +13,7 @@
     left: 10vw;
     align-content: space-evenly ;
     margin-left: 30px;
+    height: 100%;
 }
 .portadaContacto{
     width: 100%;
@@ -69,6 +70,7 @@
 }
 @media screen and (max-width:800px) {
     .cont-imgContacto{
+<<<<<<< HEAD
         height: 100vw;
         overflow: hidden;
     }
@@ -78,15 +80,33 @@
         width: auto;
         height: 35vh;
         overflow: hidden;
+=======
+        height: 40vw;
+        width: auto;
+    }
+    .portadaContacto{
+        top:0vh;
+        filter:blur(2px);
+        height: 100%;
+        width: 100%;
+>>>>>>> 7f49cfad70c948c5e1e5a5972ffa9f855ab9aca1
     }
     .todo{
         display: block;
         top:15vh;
         text-align: center;
+<<<<<<< HEAD
         font-size: 4vw;
         
         margin: 0;
         padding-left: 0;
+=======
+        font-size: 2vw;
+        width: 90%;
+        margin: 0 10vh;
+        
+    
+>>>>>>> 7f49cfad70c948c5e1e5a5972ffa9f855ab9aca1
     }
     .imgCont1{
         width: 50px;
