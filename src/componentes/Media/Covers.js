@@ -4,6 +4,7 @@ import Poster from './poster.jpg';
 import Fondo from '../imagenes/Empowerit-logo.png';
 import './Coverr.css';
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,7 +22,9 @@ const Covers = () => {
         
         
         <button className='btn-main hover-filled-slide-up'>
+        <Link to='/our-job'>
           <span>{t("cover.button")}</span>
+        </Link>
         </button>
       </div>
     )

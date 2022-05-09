@@ -22,7 +22,7 @@ import { useTranslation } from "react-i18next";
    
    return (
          <>
-         <Navbar bg="light" expand="lg" expanded={expanded}>
+          <Navbar bg="light" expand="lg" expanded={expanded}>
            <Container className='contenido'>
              <Navbar.Brand  id='empowerit' as={Link} to= '/'  onClick={closeNav}>
                <img
