@@ -64,8 +64,13 @@
 }
 @media screen and (max-width:800px) {
     .cont-imgContacto{
-        height: 40vw;
+        height: 50vw;
         width: auto;
+    }
+    .titulo-portada{
+        font-size:x-large;
+        top:10vh;
+        padding-left: 15vh;
     }
     .portadaContacto{
         top:0vh;
@@ -80,7 +85,21 @@
         font-size: 2vw;
         width: 90%;
         margin: 0 10vh;
-        
-    
     }
+    .cont-buttonC{
+        margin-left: 15vh;
+        top:90vh;
+    }
+    .phone {
+       font-size: 2vw;
+       display: block;
+       position: absolute;
+       top:10vh;
+     } 
+     .email{
+        font-size: 2vw;
+        display: block;
+        position: absolute;
+        top:10vh;
+     }
 }

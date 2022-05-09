@@ -12,7 +12,14 @@ const Contacto = () => {
           <div className='cont-imgContacto'>
                <img className='portadaContacto' src='https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1321462048?k=20&m=1321462048&s=612x612&w=0&h=lX-pTNbf8XkFJR6lObJFN9J953QP2QfrK-IbEeQeAt4='/>
                   <h2 className="titulo-portada">{t("contact.title")}</h2>
-                     <div className='todo'>
+                     <div className='cont-textoContact'>
+                     <div className='cont-buttonC'>
+                              <button  className='btn-main hover-filled-slide-up'>
+                                <Link to="/formulario">
+                                  <span> {t("form-button")} </span>
+                                </Link>
+                             </button>
+                           </div>
                           <p className='phone'>
                              <span className='imgCont1'>
                                <img  src='https://cdn.icon-icons.com/icons2/614/PNG/512/phone-call-auricular-symbol-in-black_icon-icons.com_56483.png' width={'80'}/>
@@ -25,14 +32,9 @@ const Contacto = () => {
                               </span>
                               < a href='info@empowerit.com'>info@empowerit.com</a>
                           </p>
-                          <div className='cont-buttonC'>
-                          <button  className='btn-main hover-filled-slide-up'>
-                          <Link to="/formulario">
-                            <span> {t("form-button")} </span>
-                          </Link>
-                          </button>
-                        </div>
-                     </div>
+                            
+                         </div>
+                         
                        
            </div>
         </div>
