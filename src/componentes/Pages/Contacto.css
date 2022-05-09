@@ -1,4 +1,4 @@
-.cont-todo{
+.cont-cont{
     justify-content: center;
     flex: auto;
     margin: 0;
@@ -8,31 +8,36 @@
 .todo{
     flex-flow: column nowrap;
     display: block;
-    position: relative;
-    top: -500px; left: 200px;
+    position: absolute;
+    top: 20vw; 
+    left: 10vw;
     align-content: space-evenly ;
     margin-left: 30px;
 }
 .portadaContacto{
     width: 100%;
-    height: 110vh;
+    
 }
 
 .phone {
    display: block;
-   padding-left: 47px;
+   flex-direction: row;
+   margin-left: 10px;
    font-weight: bold;
-   font-size: 25px;
+   font-size: 2vw;
    color:white;
    text-shadow:1px 1px 2px black;
+   text-align: left;
 } 
 .email{
    display: block;
-   padding: 20px;
+  
+   
    font-weight: bold;
-   font-size: 25px;
+   font-size: 2vw;
    color:white;
    text-shadow:1px 1px 2px black;
+   text-align: left;
 }
 .titulo-portada{
     font-size:70px;
@@ -41,12 +46,13 @@
     display: block;
     justify-items: center;
     width: 100%;
-    margin-left: 2vw;
+    margin-left: 7vh;
+    margin-top: 5vh;
     padding-bottom: 100px;
 }
-    a{
+    a.link{
         box-shadow: none;
-        color: #1c7eab;
+        color: white;
       }
       
       a:hover{
@@ -61,21 +67,36 @@
 .btn-main-hover-filled-slide-up{
     top: -80px;
 }
-@media (max-width:800px) {
+@media screen and (max-width:800px) {
     .cont-imgContacto{
-        height: 55vw;
+        height: 100vw;
+        overflow: hidden;
     }
     .portadaContacto{
         top:0vh;
-        filter:blur(2px);
+        filter:blur(0px);
+        width: auto;
+        height: 35vh;
+        overflow: hidden;
     }
     .todo{
         display: block;
-        align-items: center;
+        top:15vh;
         text-align: center;
-        font-size: 3vw;
-        width: 10%;
+        font-size: 4vw;
+        
         margin: 0;
         padding-left: 0;
     }
+    .imgCont1{
+        width: 50px;
+    }
+    .email {
+        font-size: 4vw;
+    }
+    .phone{
+        font-size: 3vw;
+    }
+    
+   
 }

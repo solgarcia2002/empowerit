@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
    const {t, i18n} = useTranslation(["global"]);
        return (
          <>
-         <Navbar bg="light" expand="lg">
+         <Navbar bg="light" expand="lg" autoClose="inside" >
            <Container className='contenido'>
              <Navbar.Brand  id='empowerit' as={Link} to= '/' >
                <img
@@ -24,9 +24,9 @@ import { useTranslation } from "react-i18next";
                />
              </Navbar.Brand>
              
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-               <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="me-auto">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" autoClose="inside" />
+               <Navbar.Collapse id="basic-navbar-nav " >
+                  <Nav className="me-auto"  >
                      <NavDropdown title={t("nav-bar.services")} id="basic-nav-dropdown">
                         <NavDropdown.Item as={Link} to= '/desafio'>{t("nav-bar.challenge")}</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to= '/soluciones'>{t("nav-bar.solutions")}</NavDropdown.Item>

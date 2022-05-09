@@ -22,39 +22,39 @@ const Formulario = () => {
                 <Form classname="conte-todo">
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.f-name")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter First Name" />
+                    <Form.Control type="text" placeholder={t("form.f-name")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.l-name")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Last Name" />
+                    <Form.Control type="text" placeholder={t("form.l-name")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.email")}</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control type="email" placeholder={t("form.email")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.prof")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Job Title" />
+                    <Form.Control type="text" placeholder={t("form.prof")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.company")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Company" />
+                    <Form.Control type="text" placeholder={t("form.company")}/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.city")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter City" />
+                    <Form.Control type="text" placeholder={t("form.city")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.country")}</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Country" />
+                    <Form.Control type="text" placeholder={t("form.country")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Label>{t("form.number")}</Form.Label>
-                    <Form.Control type="number" placeholder="Enter Contact Number" />
+                    <Form.Control type="number" placeholder={t("form.number")} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label >{t("form.message")}</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Control as="textarea" rows={3} placeholder={t("form.message")}/>
                 </Form.Group>
                 <Form.Check aria-label="option 1" />
                   <Form classname='regi'>{t("form.reg")}</Form>
