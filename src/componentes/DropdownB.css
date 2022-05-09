@@ -1,4 +1,11 @@
- 
+.idioma {
+    
+    float:right;
+    margin-right: 10vh;
+    position:sticky;
+    width: 10%;
+    background-color: transparent;
+} 
 
 .btn{
     border-radius: 0;
