@@ -11,7 +11,7 @@ const Contacto = () => {
         <div className="cont-todo">
           <div className='cont-imgContacto'>
                <img className='portadaContacto' src='https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1321462048?k=20&m=1321462048&s=612x612&w=0&h=lX-pTNbf8XkFJR6lObJFN9J953QP2QfrK-IbEeQeAt4='/>
-                  <h2 className="titulo-portada">Contactanos</h2>
+                  <h2 className="titulo-portada">{t("contact.title")}</h2>
                      <div className='todo'>
                           <p className='phone'>
                              <span className='imgCont1'>
@@ -25,14 +25,15 @@ const Contacto = () => {
                               </span>
                               < a href='info@empowerit.com'>info@empowerit.com</a>
                           </p>
-                     </div>
-                        <div className='cont-button'>
-                          <button  className='btn-main hover-filled-slide-up '>
+                          <div className='cont-buttonC'>
+                          <button  className='btn-main hover-filled-slide-up'>
                           <Link to="/formulario">
                             <span> {t("form-button")} </span>
                           </Link>
                           </button>
                         </div>
+                     </div>
+                       
            </div>
         </div>
   )
