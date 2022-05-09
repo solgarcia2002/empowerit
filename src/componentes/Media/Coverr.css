@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    top:-10vh;
 
 }
 .video {
@@ -26,7 +26,7 @@
 }
 
 .cover-container > p {
-    margin-top: 8px;
+    margin-top: 0px;
     color: white;
     font-size: 32px;
     text-shadow: 1px 1px 2px black;
@@ -40,6 +40,7 @@
     height: 100vh;
     position: absolute;
     z-index: -5;
+    top:-5px;
 }
 .btn-main{
     position:relative;
@@ -92,16 +93,20 @@
 .btn-main.hover-filled-slide-up:hover::before{
     height: 0%;
 }
-@media (min-width: 770px){
-    .img{
-        display: none;
-    }
-}
 
-@media (max-width: 770px) {
+
+@media screen and (max-width: 770px) {
+    .img{
+        height: auto;
+        width: 100%;
+        
+        
+    }
+        
+
     .cover-container{
         padding: 0;
-        height: 70vh;
+        height: 50vh;
         margin-top: 0;
         text-shadow: none;
     }
@@ -110,7 +115,7 @@
     .cover-container > p {
         color:black;
         text-shadow: none;
-        margin-top: 50vh;
+        margin-top: 15vh;
         font-size: 15px;
         text-align: center;
     }

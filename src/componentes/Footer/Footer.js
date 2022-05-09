@@ -26,10 +26,10 @@ const Footer = () => {
             <i className="fas fa-gem me-3"></i>Empowerit
           </h6>
           <p>{t("cover.text")}</p>
-          <p>{t("footer.networks")}</p>
+          {/* <p>{t("footer.networks")}</p> */}
         </div>
         
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        {/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
             {t("footer.follow")}
           </h6>
@@ -40,8 +40,8 @@ const Footer = () => {
               <a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>
               <a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> */}
        
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 className="text-uppercase fw-bold mb-4">
