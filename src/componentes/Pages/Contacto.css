@@ -12,6 +12,7 @@
     top: -500px; left: 200px;
     align-content: space-evenly ;
     margin-left: 30px;
+    height: 100%;
 }
 .portadaContacto{
     width: 100%;
@@ -61,21 +62,25 @@
 .btn-main-hover-filled-slide-up{
     top: -80px;
 }
-@media (max-width:800px) {
+@media screen and (max-width:800px) {
     .cont-imgContacto{
-        height: 55vw;
+        height: 40vw;
+        width: auto;
     }
     .portadaContacto{
         top:0vh;
         filter:blur(2px);
+        height: 100%;
+        width: 100%;
     }
     .todo{
         display: block;
         align-items: center;
         text-align: center;
-        font-size: 3vw;
-        width: 10%;
-        margin: 0;
-        padding-left: 0;
+        font-size: 2vw;
+        width: 90%;
+        margin: 0 10vh;
+        
+    
     }
 }
