@@ -70,22 +70,7 @@
 }
 @media screen and (max-width:800px) {
     .cont-imgContacto{
-<<<<<<< HEAD
-        height: 50vw;
-=======
-<<<<<<< HEAD
-        height: 100vw;
-        overflow: hidden;
-    }
-    .portadaContacto{
-        top:0vh;
-        filter:blur(0px);
-        width: auto;
-        height: 35vh;
-        overflow: hidden;
-=======
         height: 40vw;
->>>>>>> 9569b88c5cd1b7511eb6170b04247786ddf4c69c
         width: auto;
     }
     .titulo-portada{
@@ -97,23 +82,19 @@
         top:0vh;
         filter:blur(2px);
         height: 100%;
-        width: 100%;
->>>>>>> 7f49cfad70c948c5e1e5a5972ffa9f855ab9aca1
     }
     .todo{
         display: block;
         top:15vh;
         text-align: center;
-<<<<<<< HEAD
+
         font-size: 4vw;
         
         margin: 0;
         padding-left: 0;
-=======
         font-size: 2vw;
         width: 90%;
         margin: 0 10vh;
-<<<<<<< HEAD
     }
     .cont-buttonC{
         margin-left: 15vh;
@@ -131,10 +112,6 @@
         position: absolute;
         top:10vh;
      }
-=======
-        
-    
->>>>>>> 7f49cfad70c948c5e1e5a5972ffa9f855ab9aca1
     }
     .imgCont1{
         width: 50px;
@@ -147,5 +124,3 @@
     }
     
    
->>>>>>> 9569b88c5cd1b7511eb6170b04247786ddf4c69c
-}
