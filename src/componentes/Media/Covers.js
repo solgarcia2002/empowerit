@@ -13,7 +13,7 @@ const Covers = () => {
 
     return (
       <div className='cover-container'>
-        <video className='d-none d-md-block .d-lg-none video' src={CoverVideo} autoPlay loop muted poster={Poster}/>
+        <video className='d-none d-md-block .d-lg-none video' src={'https://empowerit-assets.s3.amazonaws.com/coverVideo.mp4'} autoPlay loop muted poster={Poster}/>
         
         <img className=	'.d-none .d-lg-none .d-md-none img'  src={Fondo} alt='fondo'/>
         <h1 className='d-none d-md-block .d-lg-none h1'>EMPOWERIT</h1>  
