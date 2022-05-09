@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
    const {t, i18n} = useTranslation(["global"]);
        return (
          <>
-         <Navbar bg="light" expand="sm">
+         <Navbar bg="light" expand="lg">
            <Container className='contenido'>
              <Navbar.Brand  id='empowerit' as={Link} to= '/' >
                <img
