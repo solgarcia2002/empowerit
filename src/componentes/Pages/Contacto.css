@@ -19,21 +19,21 @@
     width: 100%;
     
 }
-
-.phone {
+.cont-textoContact{
+    position: absolute;
+}
+.cont-textoContact >.phone {
+    display: block;
+    flex-direction: row;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 2vw;
+    color:white;
+    text-shadow:1px 1px 2px black;
+    text-align: left;
+}
+.cont-textoContact > .email{
    display: block;
-   flex-direction: row;
-   margin-left: 10px;
-   font-weight: bold;
-   font-size: 2vw;
-   color:white;
-   text-shadow:1px 1px 2px black;
-   text-align: left;
-} 
-.email{
-   display: block;
-  
-   
    font-weight: bold;
    font-size: 2vw;
    color:white;
@@ -79,9 +79,10 @@
         padding-left: 15vh;
     }
     .portadaContacto{
-        top:0vh;
-        filter:blur(2px);
-        height: 100%;
+        top:8vh;
+        filter:blur(0px);
+        height: auto;
+        position: absolute;
     }
     .todo{
         display: block;
