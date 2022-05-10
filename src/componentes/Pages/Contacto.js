@@ -10,7 +10,7 @@ const Contacto = () => {
     return (
         <div className="cont-cont">
           <div className='cont-imgContacto'>
-               <img className='portadaContacto' src='https://media.istockphoto.com/photos/digital-transformation-concept-system-engineering-binary-code-picture-id1321462048?k=20&m=1321462048&s=612x612&w=0&h=lX-pTNbf8XkFJR6lObJFN9J953QP2QfrK-IbEeQeAt4='/>
+               <img className='portadaContacto' src='https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg'/>
                   <h2 className="titulo-portada">{t("contact.title")}</h2>
                      <div className='todo'>
                           <p className='phone'>
