@@ -12,7 +12,14 @@ const Contacto = () => {
           <div className='cont-imgContacto'>
                <img className='portadaContacto' src='https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg'/>
                   <h2 className="titulo-portada">{t("contact.title")}</h2>
-                     <div className='todo'>
+                     <div className='cont-textoContact'>
+                     <div className='cont-buttonC'>
+                              <button  className='btn-main hover-filled-slide-up'>
+                                <Link to="/formulario">
+                                  <span> {t("form-button")} </span>
+                                </Link>
+                             </button>
+                           </div>
                           <p className='phone'>
                              <span className='imgCont1'>
                                <img className='phone-icon' src='https://cdn.icon-icons.com/icons2/614/PNG/512/phone-call-auricular-symbol-in-black_icon-icons.com_56483.png' width={'30vw'}/>
@@ -25,14 +32,9 @@ const Contacto = () => {
                               </span>
                               < a className='link' href='info@empowerit.com'>info@empowerit.com</a>
                           </p>
-                          <div className='cont-buttonC'>
-                          <button  className='btn-main hover-filled-slide-up'>
-                          <Link to="/formulario">
-                            <span> {t("form-button")} </span>
-                          </Link>
-                          </button>
-                        </div>
-                     </div>
+                            
+                         </div>
+                         
                        
            </div>
         </div>
