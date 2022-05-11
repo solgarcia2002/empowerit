@@ -6,15 +6,15 @@
     },
     "contact-button":"Contact",
 
-    "form-button":"Drop us a line",
+    "form-button":"Call us",
 
     "nav-bar": {
         "services":"Our Services",
         "challenge":"Challenge",
         "solutions":"Solutions",
         "contact-us":"Contact us",
-        "our-job":"Our Job",
-        "follow":"Join up",
+        "our-job":"Our Work",
+        "follow":"Join us",
         "contact":"Contact"
     },
     
