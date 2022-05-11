@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import { Carousel } from 'react-bootstrap';
+import ClientCard from '../ClientsCard/ClientsCard';
 import './Carousels.css';
 
 function ControlledCarousel() {
@@ -12,41 +13,25 @@ function ControlledCarousel() {
   return (
     <Carousel className= "contenedor" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item className='diap1'> 
-        <img
-          className="primer"
-          src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822__340.jpg"
-          alt="First slide"
-        />
-        <Carousel.Caption className='info1'>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div className='slide-container'> 
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/clinify.png' title="Clinify Health - Chicago, US"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/betway.png' title="Betway - UK"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/renault.png' title="Renault - AR"/>
+        </div>
       </Carousel.Item>
       <Carousel.Item className='diap2'>
-        <img
-          className="seg"
-          src="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090__340.jpg"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption className='info2'>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <div className='slide-container'>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/silco.png' title="SilcoPC - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/desagoteslavictoria.png' title="Desagotes La Victoria - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/imagenmasarquitectura.png' title="Imagen+Arquitectura - AR"/>
+        </div>
       </Carousel.Item>
       <Carousel.Item className='diap3'>
-        <img
-          className="ter"
-          src="https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213__340.jpg"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption className='info3'>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <div className='slide-container'>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/remolquesmirage.png' title="Remolques Mirage - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/mosaicoslosamigos.png' title="Mosaicos Los Amigos - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/lipinski.png' title="Propiedades Lipinski - AR"/>
+        </div>
       </Carousel.Item>
     </Carousel>
   );

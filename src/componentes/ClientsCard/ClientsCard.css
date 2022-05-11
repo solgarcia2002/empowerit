@@ -1,0 +1,15 @@
+.client-logo {
+ height: 180px;
+ width: 286px;
+ background-color: #ccc;
+}
+.client-header{
+    background: transparent;
+    border:none;
+    text-align: center;
+}
+.client-card {
+    width:320px;
+    padding: 1rem;
+    margin: 1rem;
+}
