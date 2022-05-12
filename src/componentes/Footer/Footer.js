@@ -35,7 +35,7 @@ const Footer = () => {
           </h6>
           
           <div>
-            <div classname="icons">
+            <div className="icons">
               <a  target="_blank" rel='noreferrer'href="https://facebook.com" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
               <a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>
               <a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>

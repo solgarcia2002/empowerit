@@ -93,6 +93,25 @@
 .btn-main.hover-filled-slide-up:hover::before{
     height: 0%;
 }
+.btn-main:disabled{
+    background-color: gray;
+    transition: none;
+    color:gray
+}
+
+.btn-main:disabled::before{
+    background-color: gray;
+    transition: none;
+}
+.btn-main:disabled span:hover{
+    color: rgb(39, 39, 39);
+    transition:none;
+}
+.btn-main:disabled span{
+    color:rgb(59, 59, 59) ;
+    
+    transition: none;
+}
 
 
 @media screen and (max-width: 700px) {

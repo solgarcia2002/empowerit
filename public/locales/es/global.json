@@ -65,8 +65,21 @@
         "country":"País",
         "number":"Número de Contacto",
         "message":"Mensaje",
-        "reg":"Me gustaría registrarme con mi dirección de correo electrónico para recibir comunicaciones de Empowerit",
+        "reg":"Quiero recibir novedades de Empowerit en mi correo electrónico",
         "button":"Enviar"
+    },
+    "error-form":{
+        "f-name":"Por favor ingresa tu nombre",
+        "l-name":"Por favor ingresa tu apelllido",
+        "email":"Por favor ingresa un mail válido",
+        "prof":"Por favor ingresa tu profesión",
+        "company":"Por favor ingresa el nombre de tu empresa",
+        "city":"Por favor ingresa una ciudad válida",
+        "country":"Por favor ingresa un pais válido",
+        "number":"Por favor ingresa un número de Contacto",
+        "message":"Déjanos un breve comentario para poder ayudarte"
+        
     }
+
 
 }
