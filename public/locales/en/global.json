@@ -67,7 +67,9 @@
         "number":"Contact Number",
         "message":"Message",
         "reg":"I would like to receive communications from Empowerit",
-        "button":"Send"
+        "button":"Send",
+        "alert":"Thanks for your message! We will contact you soon.",
+        "send":"Your message was sent successfully"
     },
     "error-form":{
         "f-name":"Please enter your name",
@@ -78,7 +80,10 @@
         "city":"Please provide a valid city",
         "country":"Please provide a valid country",
         "number":"Please provide a valid number",
-        "message":"Please leave us a brief comment"
+        "message":"Please leave us a brief comment",
+        "character":"Characters not allowed",
+        "number-ch":"Only numbers",
+        "email-inv":"Invalid email"
         
     }
 }

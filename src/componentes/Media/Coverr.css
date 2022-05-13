@@ -94,17 +94,18 @@
     height: 0%;
 }
 .btn-main:disabled{
-    background-color: gray;
+    background-color: #68c3cf;
     transition: none;
     color:gray
 }
 
 .btn-main:disabled::before{
-    background-color: gray;
+    background-color: #68c3cf;
     transition: none;
+    color:rgb(153, 153, 153)
 }
 .btn-main:disabled span:hover{
-    color: rgb(39, 39, 39);
+    color: rgb(118, 118, 118);
     transition:none;
 }
 .btn-main:disabled span{

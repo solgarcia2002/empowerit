@@ -1,3 +1,4 @@
+import React from "react";
 import { Card } from "react-bootstrap";
 import './ClientsCard.css';
 const ClientCard = ({image, title})=>{

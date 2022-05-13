@@ -1,17 +1,58 @@
 .div-form{
-    max-width: 500px;
-    margin: 0 auto;
+    
+    margin: 5vh auto;
+    width:500px;
+    height:max-content;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 0 30px -10px #08b1b1;
+    
+    padding:5vh 4vw;
+    max-width:700px;
+    box-sizing:border-box;
+    position:relative
 }
+.logo{
+    position: absolute;
+    right:5vh;
+
+}
+
+.input{
+    width:100%;
+    padding:5px;
+    margin-bottom: 6px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #68c3cf;
+    color:rgb(160, 160, 160);
+}
+.input:focus{
+    border-bottom:2px solid #08b1b1}
 .title-form{
-font-weight: normal;
-padding-top: 10vh;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 2vh;
+    
+}
+.conte-todo{
+    color:rgb(86, 86, 86);
+    
+}
+.error{
+    color:#08b1b1;
+    font-size: 2vh;
 }
 .mb-3{
     width: 100%;
 }
 
 .form-label{
-font-size: 18px;
+font-size: 3vh;
 font-weight: normal;
 }
 
@@ -20,13 +61,43 @@ font-weight: normal;
     text-align: justify;
     font-size: 5px;
 }
+.form-check{
+    margin:10px;
+}
+.form-check-input:checked {
+    background-color: #08b1b1;
+    border-color: #08b1b1;
+}
 .recaptcha{
-    margin:3vh 0;
+    margin:3vh 7vh;
+    
+}
+.buton-submit{
+    margin: 0 17vh;
+    margin-bottom: 2vh;
 }
 
 
 @media screen and (max-width:700px){
     .div-form{
-        margin: 0 7vw;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 2vh;
+        padding: 0 7vh;
+    }
+    .recaptcha{
+        margin:3vh 0;
+        
+    }
+    .form-label{
+        font-size: 2vh;
+        
+    }
+    .error{
+        color:#08b1b1;
+        font-size: 1.5vh;
+    }
+    .buton-submit{
+        margin-bottom: 5vh;
     }
 }

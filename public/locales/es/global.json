@@ -6,11 +6,11 @@
     },
     "contact-button":"Contacto",
 
-    "form-button":"Escribenos",
+    "form-button":"Escríbenos",
 
     "nav-bar": {
         "services":"Nuestros Servicios",
-        "challenge":"Desafio",
+        "challenge":"Desafío",
         "solutions":"Soluciones",
         "contact-us":"Contáctanos",
         "our-job":"Nuestro Trabajo",
@@ -66,7 +66,9 @@
         "number":"Número de Contacto",
         "message":"Mensaje",
         "reg":"Quiero recibir novedades de Empowerit en mi correo electrónico",
-        "button":"Enviar"
+        "button":"Enviar",
+        "alert":"Gracias por tu mensaje! Te contactaremos a la brevedad.",
+        "send":"Tu mensaje fue enviado con éxito"
     },
     "error-form":{
         "f-name":"Por favor ingresa tu nombre",
@@ -75,9 +77,12 @@
         "prof":"Por favor ingresa tu profesión",
         "company":"Por favor ingresa el nombre de tu empresa",
         "city":"Por favor ingresa una ciudad válida",
-        "country":"Por favor ingresa un pais válido",
+        "country":"Por favor ingresa un país válido",
         "number":"Por favor ingresa un número de Contacto",
-        "message":"Déjanos un breve comentario para poder ayudarte"
+        "message":"Déjanos un breve comentario para poder ayudarte",
+        "character":"Caracteres no permitidos",
+        "number-ch":"Solo números",
+        "email-inv":"Email inválido"
         
     }
 
