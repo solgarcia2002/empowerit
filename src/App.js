@@ -21,7 +21,6 @@ function Pass() {
   return (
 
      <div className='App'>
-<<<<<<< HEAD
 
        <BrowserRouter>
         <NavbarComp/>
@@ -39,16 +38,6 @@ function Pass() {
           
         
         <div> <Footer/></div>           
-=======
-       <NavbarComp/> 
-        <div>
-         <DropdownB/>
-          <h1> Hola Mundo</h1>
-        </div>
-           <div>
-             <Covers/>
-           </div>
->>>>>>> b35ff579151374a6329da2777f4ec794bc5d5abc
      </div >
   );
 }
