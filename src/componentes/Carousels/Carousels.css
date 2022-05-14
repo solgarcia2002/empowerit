@@ -8,9 +8,9 @@
 .primer, .seg, .ter{
     border-radius: 5%;
     margin-left: 30%;
-    width: 40%;
+    width: 42vh;
     align-content:center;
-    height: 50%; 
+    height: auto; 
       
 }
 .info > h3 {
@@ -30,10 +30,11 @@ opacity: 80%;
    padding-top: 80px;
    padding-bottom:  80px;
 }
-@media (max-width: 800px){
+@media screen and  (max-width: 800px){
     .primer, .seg, .ter{
-        width: 78%;
-        margin-left: 11%;
+        margin-right:5vh;
+        
+        width: 30vh;
     }
 }
   

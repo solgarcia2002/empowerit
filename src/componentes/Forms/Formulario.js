@@ -5,11 +5,11 @@ import './Formulario.css';
 import { useTranslation } from "react-i18next";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { Alert, info } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
 
 
 const Formulario = () => {
-  const {t, i18n} = useTranslation(["global"]);
+  const {t} = useTranslation(["global"]);
   const [show, setShow] = useState(false);
 
 

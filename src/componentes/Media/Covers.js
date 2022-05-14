@@ -1,7 +1,5 @@
 import React from 'react';
-import CoverVideo from './coverVideo.mp4';
 import Poster from './poster.jpg';
-import Fondo from '../imagenes/Empowerit-logo.png';
 import './Coverr.css';
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
@@ -10,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 const Covers = () => {
-  const {t, i18n} = useTranslation(["global"]);
+  const {t} = useTranslation(["global"]);
 
     return (
       <div className='cover-container'>

@@ -3,7 +3,7 @@ import './About.css';
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const {t, i18n} = useTranslation(["global"]);
+  const {t} = useTranslation(["global"]);
   return (
     <div className='about-container'>
         <div className='about-desc1'>

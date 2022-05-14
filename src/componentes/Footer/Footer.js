@@ -1,12 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 
 
 
 const Footer = () => {
-  const {t, i18n} = useTranslation(["global"]);
+  const {t} = useTranslation(["global"]);
     return (
      
 <footer className="text-center text-lg-start bg-light text-muted">

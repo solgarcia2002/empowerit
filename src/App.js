@@ -10,13 +10,12 @@ import Trabajo from './componentes/Pages/Trabajo';
 import Unete from './componentes/Pages/Unete';
 import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
-import { useTranslation } from "react-i18next";
 import Formulario from './componentes/Forms/Formulario';
 
 
 
 function Pass() {
-  const {t, i18n} = useTranslation(["global"]);
+  
 
   return (
 

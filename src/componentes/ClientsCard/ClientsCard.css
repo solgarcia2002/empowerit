@@ -1,6 +1,6 @@
 .client-logo {
- height: 180px;
- width: 286px;
+ height: auto;
+ width: 40vh;
  background-color: #ccc;
 }
 .client-header{
@@ -9,7 +9,25 @@
     text-align: center;
 }
 .client-card {
-    width:320px;
+    width:44vh;
     padding: 1rem;
     margin: 1rem;
+}
+@media screen and  (max-width: 700px){
+    .client-card{
+        margin:1vh;
+        padding: 1vh;
+        width: 100%;
+    }
+    .client-logo {
+        height: auto;
+        width: 11vh;
+        background-color: #ccc;
+        padding:0;
+        margin:0;
+       }
+       .client-header{
+        font-size:small;
+        padding: 0;
+    }
 }

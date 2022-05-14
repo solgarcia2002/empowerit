@@ -8,7 +8,7 @@ const Trabajo = () => {
       <div className="cont-todo">
         <div className='cont-img'>
               
-          <img className='portada' src='https://cdn.pixabay.com/photo/2021/09/08/05/38/communication-6605646__340.jpg'/>
+          <img className='portada' alt='portada-trabajo' src='https://cdn.pixabay.com/photo/2021/09/08/05/38/communication-6605646__340.jpg'/>
         </div>
         
         <h1 className="titulo-portada ">{t("our-job.title")}</h1>

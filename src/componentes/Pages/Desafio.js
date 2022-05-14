@@ -9,7 +9,7 @@ function Desafio ()  {
 
       <div className="cont-todo">
          <div className='cont-img'>
-             <img className='portada' src= 'https://media.istockphoto.com/photos/businessman-checking-digital-data-by-virtual-reality-picture-id1137071808?k=20&m=1137071808&s=612x612&w=0&h=OmNg805KjezdlgR-hEdpYOBp6J8L1pj9KgbhgObu4-w='/>
+             <img className='portada' alt='portada-desafio' src= 'https://media.istockphoto.com/photos/businessman-checking-digital-data-by-virtual-reality-picture-id1137071808?k=20&m=1137071808&s=612x612&w=0&h=OmNg805KjezdlgR-hEdpYOBp6J8L1pj9KgbhgObu4-w='/>
              
          </div>  
           <div className="cont-texto">
