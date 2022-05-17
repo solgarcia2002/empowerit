@@ -14,12 +14,15 @@ import Formulario from './componentes/Forms/Formulario';
 
 
 
+
 function Pass() {
+  
   
 
   return (
 
      <div className='App'>
+       
 
        <BrowserRouter>
         <NavbarComp/>
@@ -43,7 +46,7 @@ function Pass() {
 
 function App() {
  return(
-   <Suspense fallback='Cargando...'>
+   <Suspense fallback=''>
      <Pass/>
    </Suspense>
  )}

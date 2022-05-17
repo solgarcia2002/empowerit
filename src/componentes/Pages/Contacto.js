@@ -11,7 +11,7 @@ const Contacto = () => {
         <div className="cont-cont">
           <div className='cont-imgContacto'>
                <img className='portadaContacto' alt='portada' src='https://images.pexels.com/photos/5485885/pexels-photo-5485885.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'/>
-                  <h2 className="titulo-portada">{t("contact.title")}</h2>
+                  <h2 className="titulo-port">{t("contact.title")}</h2>
                      <div className='cont-textoContact'>
                               <p className='phone'>
                                 <span className='imgCont1'>
