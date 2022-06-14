@@ -47,6 +47,7 @@ mask-image:linear-gradient(to left,rgba(0,0,0,1.0) 50%,transparent 90%);
         margin-top: 0;
         padding-bottom: 2vh;
         margin-bottom: 10px;
+        width: 100%;
     }
     .about-desc1 {
         display: flex;
@@ -64,5 +65,7 @@ mask-image:linear-gradient(to left,rgba(0,0,0,1.0) 50%,transparent 90%);
     }
     .about-desc > p {
         padding-left: 10px;
+        
         }
+    
 }
