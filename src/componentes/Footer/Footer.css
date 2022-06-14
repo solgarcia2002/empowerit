@@ -1,4 +1,6 @@
-
+.title-footer{
+  font-size: 3vh;
+}
 .text-center p-4{
   background-color: #DCDCDC;
 }
@@ -14,4 +16,9 @@
 }
 .text-reset{
   text-decoration: none;
+}
+@media screen and (max-width: 700px){
+  .title-footer{
+    font-size: 2vh;
+  }
 }

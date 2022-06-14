@@ -11,7 +11,7 @@ const About = () => {
            <p>{t("about.text")}</p>
         </div>
         <div className='about-img1'>
-           <img src='https://media.istockphoto.com/photos/group-of-businesswomen-collaborating-in-creative-meeting-around-table-picture-id1279113943?k=20&m=1279113943&s=612x612&w=0&h=-4qUq7x5tO_ubIOgzD45Na4lFoc7po_29Fc523QQJdw=' alt='about'/>
+           <img src='https://media.istockphoto.com/photos/group-of-businesswomen-collaborating-in-creative-meeting-around-table-picture-id1279113943?k=20&m=1279113943&s=612x612&w=0&h=-4qUq7x5tO_ubIOgzD45Na4lFoc7po_29Fc523QQJdw=' alt=''/>
         </div>
     </div>
   )

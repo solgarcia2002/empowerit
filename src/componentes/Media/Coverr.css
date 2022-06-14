@@ -25,11 +25,12 @@
     text-shadow: 1px 1px 2px black;
 }
 
-.cover-container > p {
+.cover-container > h2 {
     margin-top: 0px;
     color: white;
     font-size: 32px;
     text-shadow: 1px 1px 2px black;
+    margin-bottom: 4vh;
 }
 
 
@@ -43,6 +44,7 @@
     top:-5px;
 }
 .btn-main{
+    
     position:relative;
     display:inline-block;
     width: auto;

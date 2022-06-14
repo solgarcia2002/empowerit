@@ -50,8 +50,17 @@
    text-shadow:1px 1px 2px black;
    text-align: left;
 }
+.cont-contact{
+    display: block;
+    position: absolute;
+    top: 10vw; 
+    
+    text-align: center;
+    width: 100%;
+}
 .titulo-port{
-    font-size:70px;
+    font-size:10vh;
+    color: white;
 }
 .imgCont1{
     margin-right: 15px;
@@ -95,6 +104,10 @@
     .cont-imgContacto{
         height: 100vw;
         overflow: hidden;
+    }
+    .titulo-port{
+        font-size:7vw;
+        margin-top: 6vh;
     }
     .portadaContacto{
         top:8vh;
