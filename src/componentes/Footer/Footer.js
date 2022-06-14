@@ -18,7 +18,7 @@ const Footer = () => {
   </section>
 
   <section className="">
-    <div class="container text-center text-md-start mt-5">
+    <div className="container text-center text-md-start mt-5">
       <div className="row mt-3">
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h4 className="title-footer text-uppercase fw-bold mb-4">
@@ -47,16 +47,16 @@ const Footer = () => {
             {t("footer.links")}
           </h4>
           <p>
-            <a href="/desafio" class="text-reset">{t("nav-bar.challenge")}</a>
+            <a href="/desafio" className="text-reset">{t("nav-bar.challenge")}</a>
           </p>
           <p>
-            <a href="/soluciones" class="text-reset">{t("nav-bar.solutions")}</a>
+            <a href="/soluciones" className="text-reset">{t("nav-bar.solutions")}</a>
           </p>
           <p>
-            <a href="our-job" class="text-reset">{t("nav-bar.our-job")}</a>
+            <a href="our-job" className="text-reset">{t("nav-bar.our-job")}</a>
           </p>
           <p>
-            <a href="unete" class="text-reset">{t("nav-bar.follow")}</a>
+            <a href="unete" className="text-reset">{t("nav-bar.follow")}</a>
           </p>
         </div>
        

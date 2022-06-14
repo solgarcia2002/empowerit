@@ -80,38 +80,38 @@ const Formulario = () => {
                 let errores = {};
                 if(!valores.user_name){
                   errores.user_name = `${t("error-form.f-name")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.user_name)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.user_name)){
                   errores.user_name= `${t("error-form.character")}`
                   
                 }
                 if(!valores.lname){
                   errores.lname = `${t("error-form.l-name")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.lname)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.lname)){
                   errores.lname = `${t("error-form.character")}`
                 }
                 if(!valores.email){
                   errores.email = `${t("error-form.email")}`
-                } else if (!/^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/.test(valores.email)){
+                } else if (!/^(([^<>()[\].,;:\s@"]+(.[^<>()[\].,;:\s@”]+)*)|(”.+”))@(([^<>()[\].,;:\s@”]+\.)+[^<>()[\].,;:\s@”]{2,})$/.test(valores.email)){
                   errores.email = `${t("error-form.email-inv")}`
                 }
                 if(!valores.prof){
                   errores.prof = `${t("error-form.prof")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.prof)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.prof)){
                   errores.prof = `${t("error-form.character")}`
                 }
                 if(!valores.company){
                   errores.company = `${t("error-form.company")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.company)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.company)){
                   errores.company = `${t("error-form.character")}`
                 }
                 if(!valores.city){
                   errores.city = `${t("error-form.city")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.city)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.city)){
                   errores.city = `${t("error-form.character")}`
                 }
                 if(!valores.country){
                   errores.country = `${t("error-form.country")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.country)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.country)){
                   errores.country = `${t("error-form.character")}`
                 }
                 
@@ -122,7 +122,7 @@ const Formulario = () => {
                 }
                 if(!valores.message){
                   errores.message = `${t("error-form.message")}`
-                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC\'/]{1,40}$/.test(valores.message)){
+                } else if (!/^[a-zA-ZÀ-ÿ\u00E0-\u00FC/]{1,40}$/.test(valores.message)){
                   errores.message = `${t("error-form.character")}`
                 }
                 return errores;
@@ -273,9 +273,9 @@ const Formulario = () => {
                       <div className="error">{errors.message} </div>
                     )}/>
                     
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="Acepta"/>
-                      <label class="form-check-label" for="flexCheckDefault">{t("form.reg")}</label>
+                    <div className="form-check">
+                      <input className="form-check-input" type="checkbox" value="" id="Acepta"/>
+                      <label className="form-check-label" for="flexCheckDefault">{t("form.reg")}</label>
                     </div>
                     
                   </div>
