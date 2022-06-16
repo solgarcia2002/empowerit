@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { useTranslation } from "react-i18next";
-
+import Mailto from '../mailTo';
 
 
 const Footer = () => {
@@ -67,14 +67,13 @@ const Footer = () => {
               <a href='contacto' class="text-reset">{t("nav-bar.contact")}</a>
           </h4>
           {/* <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p> */}
-          <p>
-            <i className="fas fa-envelope me-3"></i>
-            info@empowerit.io
-          </p>
+          <Mailto  email="info@empowerit.io" subject="" body="">
+            <p className='mail-f'><i className="fas fa-envelope me-3"></i>info@empowerit.io</p>
+          </Mailto>
           {/* <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
           <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p> */}
         </div>
-       
+        
       </div>
      
     </div>

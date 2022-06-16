@@ -30,7 +30,7 @@
     
 }
 
-.cont-textoContact >.phone {
+.phone {
     display: block;
     flex-direction: row;
     
@@ -42,13 +42,14 @@
     text-align: left;
     
 }
-.cont-textoContact > .email{
+.email{
    display: block;
    font-weight: bold;
    font-size: 2vw;
    color:white;
    text-shadow:1px 1px 2px black;
    text-align: left;
+   text-decoration: none;
 }
 .cont-contact{
     display: block;
@@ -76,20 +77,18 @@
     margin-top: 5vh;
     padding-bottom: 100px;
 }
-    a.link{
+    a.a-mail{
         box-shadow: none;
-        color: white;
+        color: rgb(124, 124, 124);
         text-decoration: none;
       }
       
-      a:hover{
+      .email:hover{
         color:#68c3cf;
       }
       
       
-      a:active{
-        color: #68c3cf;
-      }
+      
 
 .btn-main-hover-filled-slide-up{
     top: -80px;

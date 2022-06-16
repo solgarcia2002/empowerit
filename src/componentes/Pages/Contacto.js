@@ -3,7 +3,7 @@ import { useTranslation} from "react-i18next";
 import './Contacto.css';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-
+import Mailto from '../mailTo';
 
 
 const Contacto = () => {
@@ -22,20 +22,15 @@ const Contacto = () => {
           </div>
 
           <div className='cont-textoContact'>
-          
-            <p className='phone'>
+          <Mailto email="info@empowerit.io" subject="" body="">
+            <p className='email'><i class="fa-solid fa-envelope"></i> &nbsp; info@empowerit.io</p>
+          </Mailto>
+            
+          <p className='phone'>
             <i class="fa-solid fa-phone"></i> &nbsp;
                 +54 3514061578
-              {/* <span className='imgCont1'>
-              </span>
-              < a className='link' href='+543514061578'>+543514061578</a> */}
             </p>
             
-            <p className='email'><i class="fa-solid fa-envelope"></i> &nbsp; info@empowerit.io
-              {/* <span className='imgCont2'>
-              </span>
-              < a className='link' href='info@empowerit.io'>info@empowerit.io</a> */}
-            </p>
             
               <div className='cont-buttonC'>
                 <button  className='btn-main hover-filled-slide-up'>
