@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="row mt-3">
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h4 className="title-footer text-uppercase fw-bold mb-4">
-            <i className="fas fa-gem me-3"></i>Empowerit
+            Empowerit
           </h4>
           <p>{t("cover.text")}</p>
           {/* <p>{t("footer.networks")}</p> */}
@@ -84,7 +84,7 @@ const Footer = () => {
  
   <div className="text-center p-4" >
     © 2022 Copyright
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/"> </a>
+    
   </div>
  
 </footer>

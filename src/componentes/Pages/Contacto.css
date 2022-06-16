@@ -33,7 +33,7 @@
 .cont-textoContact >.phone {
     display: block;
     flex-direction: row;
-    margin-left: 10px;
+    
     
     font-weight: bold;
     font-size: 2vw;

@@ -22,17 +22,19 @@ const Contacto = () => {
           </div>
 
           <div className='cont-textoContact'>
+          
             <p className='phone'>
-              <span className='imgCont1'>
-                <img className='phone-icon' alt='phone-icon' src='https://cdn.icon-icons.com/icons2/614/PNG/512/phone-call-auricular-symbol-in-black_icon-icons.com_56483.png' width={'30vw'}/>
+            <i class="fa-solid fa-phone"></i> &nbsp;
+                +54 3514061578
+              {/* <span className='imgCont1'>
               </span>
-              < a className='link' href='+543514061578'>+543514061578</a>
+              < a className='link' href='+543514061578'>+543514061578</a> */}
             </p>
-            <p className='email'>
-              <span className='imgCont2'>
-                <img className='phone-icon' alt='email-icon' src='http://assets.stickpng.com/thumbs/584856b4e0bb315b0f7675ac.png' width={'50vw'}/>
+            
+            <p className='email'><i class="fa-solid fa-envelope"></i> &nbsp; info@empowerit.io
+              {/* <span className='imgCont2'>
               </span>
-              < a className='link' href='info@empowerit.com'>info@empowerit.com</a>
+              < a className='link' href='info@empowerit.io'>info@empowerit.io</a> */}
             </p>
             
               <div className='cont-buttonC'>
