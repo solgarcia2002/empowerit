@@ -8,7 +8,7 @@ const Footer = () => {
   const {t} = useTranslation(["global"]);
     return (
      
-<footer className="text-center text-lg-start bg-light text-muted">
+<footer className="cont-footer text-center text-lg-start bg-light text-muted">
   
   <section
     className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

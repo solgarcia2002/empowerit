@@ -27,7 +27,8 @@
     },
     "services": {
         "title":"Nuestro Trabajo",
-        "text":"Ponemos a tu servicio la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado."
+        "text":"Ponemos a tu servicio la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado.",
+        "link-info":"Mas info"
     },
     "footer":{
         "networks":"Conéctate con nosotros en las redes sociales:",
@@ -40,7 +41,12 @@
     },
     "solutions":{
         "title":"Soluciones",
-        "text":"Ponemos a tus pies la ingeniería, la innovación y el diseño para elaborar productos únicos que harán que te distingas en el mercado."
+        "ball-1-title":"DESARROLLO WEB Y MÓVIL",
+        "ball-1-content":"Partiendo del análisis de las necesidades de su empresa, diseñamos sistemas que aumentan la eficiencia de la gestión diaria y simplifican su control. Nuestros diseños son totalmente responsivos, los cuales se pueden utilizar tanto en versión web como en móvil",
+        "ball-2-title":"DISEÑO UX/UI",
+        "ball-2-content":"Te brindamos un sitio web profesional, con resultados concretos: experiencia del usuario significativas e intuitivas, que suman confianza y conexión con tus clientes. Desarrollamos webs que optimizan el uso de recursos, creando páginas rápidas y que cumplan las exigencias del mercado digital",
+        "ball-3-title":"SITIOS CORPORATIVOS, ECOMMERCE, LANDINGPAGE",
+        "ball-3-content":"Soluciones de diseño Web Corporativo para empresas y pymes, portfolios, catálogos online y carritos de compras, sitios Web autoadministrables, gestores de contenidos (CMS), foros, chat, etc."
     },
     "our-job":{
         "title":"Nuestro Trabajo",

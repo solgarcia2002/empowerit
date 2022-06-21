@@ -1,0 +1,138 @@
+.cont-todo{
+    justify-content: center;
+    flex:auto;
+    justify-items: center; 
+    position:relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.cont-titulo{
+    display:flex;
+    width: 100%;
+    text-align: center;
+}
+.titulo-solutions{
+    margin-top: 5vh;
+    text-align: center;
+    position:relative;
+   
+    color:#1c7eab;
+    
+    font-size: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-primero {
+    
+    display:flex;
+    flex-wrap: wrap;
+    height: 90%;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 1vh;
+}
+.cont-desarrollo{
+    margin-left: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:45%;
+    color: rgb(88, 88, 88);
+}
+.circulo1{
+    background-color: #68C3Cf;
+    
+    width: 280px;
+    height:280px;
+    border-radius: 50%;
+    line-height: 280px;
+}
+
+.circulo2{
+    background-color: #08B1B1;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    line-height: 280px;
+}
+.circulo3{
+    background-color: #1c7eab;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    line-height: 280px;
+}
+.title-ball{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    text-transform: uppercase;
+    
+    vertical-align: middle;
+}
+.title-ball2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display:inline-flex;
+    margin-left: 4vw;
+}
+.cont-button-s{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 700px) {
+    .cont-titulo{
+        display:flex;
+        width: 80%;
+        text-align: center;
+        font-size: 1.5vh;
+    }
+    .titulo-solutions{
+        margin-top: 3vh;
+        font-size: 7vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circulo1{
+        width: 180px;
+        height: 180px;
+        line-height: 180px;
+    }
+    .circulo2{
+        width: 180px;
+        height: 180px;
+        line-height: 180px;
+    }
+    .circulo3{
+        width: 180px;
+        height: 180px;
+        line-height: 180px;
+    }
+    .title-content{
+        font-size: 2vh;
+    }
+    .cont-primero {
+        height: 95%;
+    }
+    .cont-desarrollo{
+        margin-left: 2vh;
+        width:43%;
+        font-size: 1.2vh;
+    }
+    .title-ball{
+        font-size: 2vh;
+    }
+    .title-ball2{
+        color: white;
+        text-align: center;
+        margin-top: 8vh;
+        font-size: 2vh;
+    }
+}

@@ -12,17 +12,19 @@
     height: 90vh;
 }
 .cont-textoContact{
-    flex-flow: column nowrap;
     display: block;
     position: absolute;
-    top: 20vw; 
+    top:25vh;
+    margin-top: 5vh;
     left: 10vw;
     align-content: space-evenly ;
     margin-left: 30px;
+    text-align: center;
    
     text-decoration: none;
     
 }
+
 .portadaContacto{
     width: 100%;
     overflow: hidden;
@@ -36,7 +38,7 @@
     
     
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 4vh;
     color:white;
     text-shadow:1px 1px 2px black;
     text-align: left;
@@ -45,7 +47,7 @@
 .email{
    display: block;
    font-weight: bold;
-   font-size: 2vw;
+   font-size: 4vh;
    color:white;
    text-shadow:1px 1px 2px black;
    text-align: left;
@@ -93,7 +95,7 @@
 .btn-main-hover-filled-slide-up{
     top: -80px;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
     .cont-cont{
         height:75vw ;
     }
@@ -116,7 +118,7 @@
     }
     .cont-textoContact{
         display: block;
-        top:15vh;
+        top:18vh;
         text-align: center;
         font-size: 4vw;
         
@@ -127,10 +129,10 @@
         width: 50px;
     }
     .email {
-        font-size: 4vw;
+        font-size: 2vh;
     }
     .phone{
-        font-size: 3vw;
+        font-size: 2vh;
     }
     
    
