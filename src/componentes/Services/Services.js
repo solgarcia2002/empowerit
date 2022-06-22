@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Services/Services.css'
 import { useTranslation } from "react-i18next";
-import services from '../imagenes/services1.jpeg'
+import services from '../imagenes/solutions.jpg'
 
 const Services = () => {
   const {t} = useTranslation(["global"]);
