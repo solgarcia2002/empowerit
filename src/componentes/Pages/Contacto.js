@@ -22,6 +22,9 @@ const Contacto = () => {
           </div>
 
           <div className='cont-textoContact'>
+          <Mailto  email="empowerit.io@gmail.com" subject="" body="">
+            <p className='email'><i className="fa-solid fa-envelope"></i> &nbsp; empowerit.io@gmail.com</p>
+          </Mailto>
           <Mailto email="info@empowerit.io" subject="" body="">
             <p className='email'><i class="fa-solid fa-envelope"></i> &nbsp; info@empowerit.io</p>
           </Mailto>

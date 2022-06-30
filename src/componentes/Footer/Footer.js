@@ -70,6 +70,9 @@ const Footer = () => {
           <Mailto  email="info@empowerit.io" subject="" body="">
             <p className='mail-f'><i className="fas fa-envelope me-3"></i>info@empowerit.io</p>
           </Mailto>
+          <Mailto  email="empowerit.io@gmail.com" subject="" body="">
+            <p className='mail-f'><i className="fas fa-envelope me-3"></i>empowerit.io@gmail.com</p>
+          </Mailto>
           {/* <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
           <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p> */}
         </div>
