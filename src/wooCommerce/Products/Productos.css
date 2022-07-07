@@ -1,0 +1,23 @@
+.cuerpo-prod{
+    margin:5vh ;
+    justify-content: center;
+    padding-bottom: 10vh; 
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cont-cards{
+    margin-left: 2vh; 
+}
+.card-product{
+    
+    
+    margin: 5vh;
+    padding: 0;
+    overflow: hidden;
+    transition: all ease-in-out .4s;
+}
+.row>*{
+    width: none;
+}

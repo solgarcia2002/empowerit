@@ -11,7 +11,8 @@ import Unete from './componentes/Pages/Unete';
 import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
 import Formulario from './componentes/Forms/Formulario';
-
+import Products from './wooCommerce/Products/products.js'
+import Product from './wooCommerce/Product/Product.js'
 
 
 
@@ -35,6 +36,11 @@ function Pass() {
               <Route path='/unete' element={ <Unete/> }/>
               <Route path='/contacto' element={ <Contacto/> }/>
               <Route path='/formulario' element={ <Formulario/> }/>
+              <Route path='/tienda' element={ <Products/> }/>
+              <Route path='/product/:id' element={ <Product/> }/>
+
+
+
           </Routes>
         </BrowserRouter>
           

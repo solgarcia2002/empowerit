@@ -46,6 +46,7 @@ import { useTranslation } from "react-i18next";
                      <Nav.Link as={Link} to= '/our-job' onClick={closeNav}>{t('nav-bar.our-job')}</Nav.Link>
                      <Nav.Link as={Link} to= '/unete' onClick={closeNav}>{t("nav-bar.follow")}</Nav.Link>
                      <Nav.Link as={Link} to= '/contacto' onClick={closeNav}>{t("nav-bar.contact")}</Nav.Link> 
+                     <Nav.Link as={Link} to= '/tienda' onClick={closeNav}>Tienda</Nav.Link> 
                   
                      
                   </Nav>
