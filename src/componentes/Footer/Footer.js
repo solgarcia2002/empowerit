@@ -58,6 +58,9 @@ const Footer = () => {
           <p>
             <a href="unete" className="text-reset">{t("nav-bar.follow")}</a>
           </p>
+          <p>
+            <a href="services" className="text-reset">{t("nav-bar.services")}</a>
+          </p>
         </div>
        
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

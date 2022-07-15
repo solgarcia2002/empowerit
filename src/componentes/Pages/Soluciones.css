@@ -20,6 +20,7 @@
     color:#1c7eab;
     
     font-size: 10vh;
+    margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -79,6 +80,13 @@
     display:inline-flex;
     margin-left: 4vw;
 }
+.title-ball2-s{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display:inline-flex;
+    margin-left: 2.5vw;
+}
 .cont-button-s{
     display: flex;
     justify-content: center;
@@ -133,6 +141,14 @@
         color: white;
         text-align: center;
         margin-top: 8vh;
+        font-size: 2vh;
+    }
+    .title-ball2-s{
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: none;
         font-size: 2vh;
     }
 }

@@ -11,6 +11,7 @@ import Unete from './componentes/Pages/Unete';
 import Soluciones from './componentes/Pages/Soluciones';
 import Footer from './componentes/Footer/Footer';
 import Formulario from './componentes/Forms/Formulario';
+import Services from './componentes/Pages/Services';
 
 
 
@@ -31,6 +32,7 @@ function Pass() {
             <Route path='/' element={ <Home/> }/>
               <Route path='/desafio' element={ <Desafio/> }/>
               <Route path='/soluciones' element={ <Soluciones/> }/>
+              <Route path='/services' element={ <Services/> }/>
               <Route path='/our-job' element={ <Trabajo/> }/>
               <Route path='/unete' element={ <Unete/> }/>
               <Route path='/contacto' element={ <Contacto/> }/>

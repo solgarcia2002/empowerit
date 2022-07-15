@@ -16,6 +16,7 @@
         "our-job":"Nuestro Trabajo",
         "follow":"Unete a Nosotros",
         "contact":"Contacto"
+        
     },
     "cover": {
         "text":"Tus socios en el Liderazgo del Futuro",
@@ -91,8 +92,36 @@
         "email-inv":"Email inválido"
         
     },
-    "meta":{
-        "description":"Somos quienes te impulsaran al éxito empoderando tu transformación digital, desarrollo web, "
+    "serv":{
+        "title":"Nuestros Servicios",
+        "li1":"Plataformas E-learning",
+        "li2":"Plataformas E-commerce",
+        "li3":"Landing pages",
+        "li4":"Aplicaciones 2D, 3D interactivas",
+        "li5":"Soluciones para Clinicas y Sanatorios (Somos expertos en HL7 y HIPPA Complients",
+        "li6":"Formularios de Contacto",
+        "li7":"Encuestas de opinion",
+        "li8":"Desarrollo de Bots para respuestas automáticas",
+        "li9":"Microwebs",
+        "li10":"MPV's",
+        "li11":"Proyectos IT customizados",
+        "li12":"Diseño de imagenes",
+        "li13":"Diseño de contenidos",
+        "li14":"Diseño de tarjetas fisicas y electrónicas",
+        "li15":"Diseño de CV",
+        "li16":"Diseño de Brochures",
+        "li17":"Grágica y branding",
+        "li18":"Posicionamiento en buscadores",
+        "li19":"Servicios de Hosting",
+        "li20":"Adminitración de redes sociales",
+        "li21":"Servicio de diagnóstico digital",
+        "li22":"Community manager"
+
+
+
+
+
+
     }
 
 

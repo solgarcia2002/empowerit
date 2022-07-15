@@ -6,7 +6,7 @@
     },
     "contact-button":"Contact",
 
-    "form-button":"Call us",
+    "form-button":"Contact us",
 
     "nav-bar": {
         "services":"Our Services",
@@ -91,5 +91,30 @@
         "number-ch":"Only numbers",
         "email-inv":"Invalid email"
         
+    },
+    "serv":{
+        "title":"Services",
+        "li1":"E-learning Platforms",
+        "li2":"Plataformas E-commerce",
+        "li3":"Landing pages",
+        "li4":"Interactive 2D, 3D Aplications",
+        "li5":"Solutions for Clinics and Sanatoriums (We are HL7 y HIPPA Complients experts",
+        "li6":"Contact Forms",
+        "li7":"Opinion polls",
+        "li8":"Bots for automatic responses",
+        "li9":"Microwebs",
+        "li10":"MPV's",
+        "li11":"Customized IT projects",
+        "li12":"image design",
+        "li13":"Content design",
+        "li14":"Physical and electronic cards design",
+        "li15":"CV design",
+        "li16":"Brochures",
+        "li17":"Graphics and branding",
+        "li18":"search engine optimization",
+        "li19":"Hosting services",
+        "li20":"Social media management",
+        "li21":"digital diagnostic service",
+        "li22":"Community manager"
     }
 }
