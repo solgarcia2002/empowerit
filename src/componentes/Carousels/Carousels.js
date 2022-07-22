@@ -21,16 +21,16 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item className='diap2'>
         <div className='slide-container'>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/silco.png' title="SilcoPC - AR"/>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/desagoteslavictoria.png' title="Desagotes La Victoria - AR"/>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/imagenmasarquitectura.png' title="Imagen+Arquitectura - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/silco.png' title="SilcoPC - AR" />
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/desagoteslavictoria.png' title="Desagotes La Victoria - AR" />
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/imagenmasarquitectura.png' title="Imagen+Arquitectura - AR" />
         </div>
       </Carousel.Item>
       <Carousel.Item className='diap3'>
         <div className='slide-container'>
           <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/remolquesmirage.png' title="Remolques Mirage - AR"/>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/mosaicoslosamigos.png' title="Mosaicos Los Amigos - AR"/>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/lipinski.png' title="Propiedades Lipinski - AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/mosaicoslosamigos.png' title="Mosaicos Los Amigos - AR" />
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/lipinski.png' title="Propiedades Lipinski - AR" />
         </div>
       </Carousel.Item>
       <Carousel.Item className='diap4'>

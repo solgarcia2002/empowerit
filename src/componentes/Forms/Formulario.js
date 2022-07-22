@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { Alert } from 'react-bootstrap';
-
+import { Helmet } from 'react-helmet';
 
 const Formulario = () => {
   const {t} = useTranslation(["global"]);
@@ -18,7 +18,7 @@ const Formulario = () => {
     setTimeout(() => setShow(false), 5000);
     e.preventDefault();
     
-    emailjs.sendForm('service_pkbhc9v', 'template_skzlnpq', e.target, '__zvtwrKoXuKLrJCc')
+    emailjs.sendForm('service_bpv11yc', 'template_h12scmz', e.target, 'gms2FcqQyrfksOFh-')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
@@ -49,6 +49,10 @@ const Formulario = () => {
       return (
         
         <div className='div-form'>
+          <Helmet>
+            <title>Empowerit | {t("nav-bar.contact")}</title>
+            
+          </Helmet>
           <div className='titulo'>
             <img
               src={Logo1}

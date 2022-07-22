@@ -12,17 +12,19 @@
     height: 90vh;
 }
 .cont-textoContact{
-    flex-flow: column nowrap;
     display: block;
     position: absolute;
-    top: 20vw; 
+    top:30vh;
+    margin-top: 5vh;
     left: 10vw;
     align-content: space-evenly ;
     margin-left: 30px;
+    text-align: center;
    
     text-decoration: none;
     
 }
+
 .portadaContacto{
     width: 100%;
     overflow: hidden;
@@ -30,28 +32,38 @@
     
 }
 
-.cont-textoContact >.phone {
+.phone {
     display: block;
     flex-direction: row;
-    margin-left: 10px;
+    
     
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 4vh;
     color:white;
     text-shadow:1px 1px 2px black;
     text-align: left;
     
 }
-.cont-textoContact > .email{
+.email{
    display: block;
    font-weight: bold;
-   font-size: 2vw;
+   font-size: 4vh;
    color:white;
    text-shadow:1px 1px 2px black;
    text-align: left;
+   text-decoration: none;
+}
+.cont-contact{
+    display: block;
+    position: absolute;
+    top: 10vw; 
+    
+    text-align: center;
+    width: 100%;
 }
 .titulo-port{
-    font-size:70px;
+    font-size:10vh;
+    color: white;
 }
 .imgCont1{
     margin-right: 15px;
@@ -67,25 +79,23 @@
     margin-top: 5vh;
     padding-bottom: 100px;
 }
-    a.link{
+    a.a-mail{
         box-shadow: none;
-        color: white;
+        color: rgb(124, 124, 124);
         text-decoration: none;
       }
       
-      a:hover{
+      .email:hover{
         color:#68c3cf;
       }
       
       
-      a:active{
-        color: #68c3cf;
-      }
+      
 
 .btn-main-hover-filled-slide-up{
     top: -80px;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
     .cont-cont{
         height:75vw ;
     }
@@ -96,6 +106,10 @@
         height: 100vw;
         overflow: hidden;
     }
+    .titulo-port{
+        font-size:7vw;
+        margin-top: 6vh;
+    }
     .portadaContacto{
         top:8vh;
         filter:blur(0px);
@@ -104,7 +118,7 @@
     }
     .cont-textoContact{
         display: block;
-        top:15vh;
+        top:18vh;
         text-align: center;
         font-size: 4vw;
         
@@ -115,10 +129,10 @@
         width: 50px;
     }
     .email {
-        font-size: 4vw;
+        font-size: 2vh;
     }
     .phone{
-        font-size: 3vw;
+        font-size: 2vh;
     }
     
    

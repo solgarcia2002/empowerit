@@ -31,9 +31,8 @@ height: 400px;
 width: 450px;
 display: flexbox;
 align-self: flex-start;
-overflow:hidden;
-padding-right:50px;
-mask-image:linear-gradient(to right,rgba(0,0,0,1.0) 50%,transparent 90%);
+overflow:unset;
+mask-image:linear-gradient(to right,rgba(0,0,0,1.0) 65%,transparent 95%);
 }
 @media screen and (max-width:700px) {
     .services-container{

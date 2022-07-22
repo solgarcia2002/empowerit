@@ -4,7 +4,7 @@ import './ClientsCard.css';
 const ClientCard = ({image, title})=>{
     return (
     <Card className="client-card">
-    <Card.Img src={image} alt={title} className='client-logo'/>
+    <Card.Img src={image} alt='' className='client-logo'/>
     <Card.Header className="client-header">{title}</Card.Header>
     </Card>
 )}

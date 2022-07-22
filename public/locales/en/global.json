@@ -6,7 +6,7 @@
     },
     "contact-button":"Contact",
 
-    "form-button":"Call us",
+    "form-button":"Contact us",
 
     "nav-bar": {
         "services":"Our Services",
@@ -28,7 +28,8 @@
     },
     "services": {
         "title":"Our Work",
-        "text":"We place engineering, innovation and design at your services to create unique products that will make you stand out in the market."
+        "text":"We place engineering, innovation and design at your services to create unique products that will make you stand out in the market.",
+        "link-info":"Read more"
     },
     "footer":{
         "networks":"Get connected with us on social networks:",
@@ -41,7 +42,12 @@
     },
     "solutions":{
         "title":"Solutions",
-        "text":"We place engineering, innovation and design at your services to create unique products that will make you stand out in the market."
+        "ball-1-title":"WEB AND MOBILE DEVELOPMENT",
+        "ball-1-content":"Basing on the analisys of the needs of your company, we design systems that increase the efficiency of daily management, simplifying its control. Our designs are fully responsive, and can be used on both web and mobile devices.",
+        "ball-2-title":"UX / UI DESIGN",
+        "ball-2-content":"We can offer you a professional website, with concrete results: significant and intuitive user experiences, that add trust and connection with your clients. We develop websites that optimize the use of resources, creating fast pages that meet the demands of the digital market.",
+        "ball-3-title":"CORPORATE WEBSITE, ECOMMERCE, LANDINGPAGE",
+        "ball-3-content":"Corporate Web design solutions for companies and SMEs, portfolios, online catalogs and shopping carts, self-managed websites, content managers (CMS), forums, chat, etc."
     },
     "our-job":{
         "title":"Our Work",
@@ -85,5 +91,33 @@
         "number-ch":"Only numbers",
         "email-inv":"Invalid email"
         
+    },
+    "serv":{
+        "title":"Services",
+        "titlebale":"APPLICATIONS DEVELOPMENT",
+        "titlebale2":"SOLUTIONS DESIGN",
+        "titlebale3":"ADMINISTRATION AND MAINTENANCE",
+        "li1":"E-learning Platforms",
+        "li2":"Plataformas E-commerce",
+        "li3":"Landing pages",
+        "li4":"Interactive 2D, 3D Aplications",
+        "li5":"Solutions for Clinics and Sanatoriums (We are HL7 y HIPPA Complients experts)",
+        "li6":"Contact Forms",
+        "li7":"Opinion polls",
+        "li8":"Bots for automatic responses",
+        "li9":"Microwebs",
+        "li10":"MVP's",
+        "li11":"Customized IT projects",
+        "li12":"image design",
+        "li13":"Content design",
+        "li14":"Physical and electronic cards design",
+        "li15":"CV design",
+        "li16":"Brochures",
+        "li17":"Graphics and branding",
+        "li18":"search engine optimization",
+        "li19":"Hosting services",
+        "li20":"Social media management",
+        "li21":"digital diagnostic service",
+        "li22":"Community manager"
     }
 }

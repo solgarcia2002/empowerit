@@ -41,6 +41,8 @@ import { useTranslation } from "react-i18next";
                         <NavDropdown.Item as={Link} to= '/desafio' onClick={closeNav}>{t("nav-bar.challenge")}</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to= '/soluciones' onClick={closeNav}>{t("nav-bar.solutions")}</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to= '/contacto' onClick={closeNav}>{t("nav-bar.contact-us")}</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to= '/services' onClick={closeNav}>{t("nav-bar.services")}</NavDropdown.Item>
+
                      </NavDropdown>
 
                      <Nav.Link as={Link} to= '/our-job' onClick={closeNav}>{t('nav-bar.our-job')}</Nav.Link>

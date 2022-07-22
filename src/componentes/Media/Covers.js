@@ -14,9 +14,9 @@ const Covers = () => {
       <div className='cover-container'>
         <video className='d-none d-md-block .d-lg-none video' src={'https://empowerit-assets.s3.amazonaws.com/coverVideo.mp4'} autoPlay loop muted poster={Poster}/>
         
-        <img className=	'.d-none .d-lg-none .d-md-none img'  src={Poster} alt='fondo'/>
+        <img className=	'.d-none .d-lg-none .d-md-none img' alt=''  src={Poster} />
         <h1 className='d-none d-md-block .d-lg-none h1'>EMPOWERIT</h1>  
-        <p> {t("cover.text")} </p>
+        <h2> {t("cover.text")} </h2>
         
         
         <button className='btn-main hover-filled-slide-up'>

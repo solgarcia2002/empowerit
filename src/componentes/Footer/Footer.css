@@ -1,4 +1,11 @@
-
+.cont-footer{
+  position:absolute;
+  
+  width: 100%;
+}
+.title-footer{
+  font-size: 2.3vh;
+}
 .text-center p-4{
   background-color: #DCDCDC;
 }
@@ -14,4 +21,18 @@
 }
 .text-reset{
   text-decoration: none;
+}
+a.mail-f{
+  box-shadow: none;
+  color: white;
+  text-decoration: none;
+}
+
+.mail-f:hover{
+  color:#68c3cf;
+}
+@media screen and (max-width: 700px){
+  .title-footer{
+    font-size: 2vh;
+  }
 }
