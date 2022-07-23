@@ -20,7 +20,7 @@ function Services ()  {
         
         <div className='cont-primero'>
           <div className='circulo1 hover-filled-slide'>
-            <h4 className='title-ball'>{t("serv.titleball")}</h4>
+            <h4 className='title-ball'>{t("serv.ball")}</h4>
           </div>
           <div className='cont-desarrollo'>
             <li>{t("serv.li1")}</li>
@@ -41,7 +41,7 @@ function Services ()  {
         
         <div className='cont-primero'>
           <div className='circulo2'>
-            <h4 className='title-ball2-s'>{t("serv.titleball2")}</h4>
+            <h4 className='title-ball2-s'>{t("serv.ball2")}</h4>
 
           </div>
           <div className='cont-desarrollo'>
@@ -55,7 +55,7 @@ function Services ()  {
         </div>
         <div className='cont-primero'>
           <div className='circulo3'>
-          <h4 className='title-ball'>{t("serv.titleball3")}</h4>
+          <h4 className='title-ball'>{t("serv.ball3")}</h4>
           </div>
           <div className='cont-desarrollo'>
             <li>{t("serv.li18")}</li>
