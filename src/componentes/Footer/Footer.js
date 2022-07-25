@@ -70,7 +70,7 @@ const Footer = () => {
           <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p> */}
                     </div>
                     <div className="icons col-md-2 col-lg-2 col-xl-2 mb-2">
-                        <a target="_blank" rel='noreferrer' href="https://www.instagram.com/empowerit.io/"
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/empowerit.io/"
                            className="me-4 text-reset"><i className="bi bi-instagram"></i></a>
                         {/*<a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>*/}
                         {/*<a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>*/}
