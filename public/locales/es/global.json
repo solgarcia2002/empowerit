@@ -94,9 +94,9 @@
     },
     "serv":{
         "title":"Nuestros Servicios",
-        "balle":"DESARROLLO DE APLICACIONES",
-        "balle2":"DISEÑO DE SOLUCIONES",
-        "balle3":"ADMINISTRACIÓN Y MANTENIMIENTO",
+        "ball":"DESARROLLO DE APLICACIONES",
+        "ball2":"DISEÑO DE SOLUCIONES",
+        "ball3":"ADMINISTRACIÓN Y MANTENIMIENTO",
         "li1":"Plataformas E-learning",
         "li2":"Plataformas E-commerce",
         "li3":"Landing pages",

@@ -94,9 +94,9 @@
     },
     "serv":{
         "title":"Services",
-        "balle":"APPLICATIONS DEVELOPMENT",
-        "balle2":"SOLUTIONS DESIGN",
-        "balle3":"ADMINISTRATION AND MAINTENANCE",
+        "ball":"APPLICATIONS DEVELOPMENT",
+        "ball2":"SOLUTIONS DESIGN",
+        "ball3":"ADMINISTRATION AND MAINTENANCE",
         "li1":"E-learning Platforms",
         "li2":"Plataformas E-commerce",
         "li3":"Landing pages",
