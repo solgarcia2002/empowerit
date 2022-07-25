@@ -28,10 +28,10 @@ const Footer = () => {
           <p>{t("footer.networks")}</p> 
         </div>
         
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+       { /*<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
             {t("footer.follow")}</h6>
-        </div>
+        </div>*/}
           <div>
             <div className="icons">
               <a  target="_blank" rel='noreferrer'href="https://www.instagram.com/empowerit.io/" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
