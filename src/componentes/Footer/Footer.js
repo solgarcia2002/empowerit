@@ -24,9 +24,8 @@ const Footer = () => {
                             Empowerit
                         </h4>
                         <p>{t("cover.text")}</p>
-                        <p>{t("footer.networks")}</p>
                     </div>
-
+                    
                     { /*    <div className="col-md-2 col-lg-2 col-xl-2  mb-2">
                         <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
             {t("footer.follow")}</h6>
@@ -69,13 +68,14 @@ const Footer = () => {
                         {/* <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
           <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p> */}
                     </div>
+
                     <div className="icons col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+                        <p className="title-footer text-uppercase fw-bold mb-4">{t("footer.networks")}</p>
                         <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/empowerit.io/"
                            className="me-4 text-reset"><i className="bi bi-instagram"></i></a>
                         {/*<a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>*/}
                         {/*<a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>*/}
                     </div>
-
                 </div>
 
             </section>
