@@ -31,7 +31,7 @@ const Contacto = () => {
             
           <p className='phone'>
             <i class="fa-solid fa-phone"></i> &nbsp;
-                +54 3514061578
+                +54 3518551205
             </p>
             
             
