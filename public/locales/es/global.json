@@ -16,7 +16,7 @@
         "our-job":"Nuestro Trabajo",
         "follow":"Unete a Nosotros",
         "contact":"Contacto"
-        
+
     },
     "cover": {
         "text":"Tus socios en el Liderazgo del Futuro",
@@ -90,7 +90,7 @@
         "character":"Caracteres no permitidos",
         "number-ch":"Solo números",
         "email-inv":"Email inválido"
-        
+
     },
     "serv":{
         "title":"Nuestros Servicios",
@@ -113,7 +113,7 @@
         "li14":"Diseño de tarjetas fisicas y electrónicas",
         "li15":"Diseño de CV",
         "li16":"Diseño de Brochures",
-        "li17":"Grágica y branding",
+        "li17":"Gráfica y branding",
         "li18":"Posicionamiento en buscadores",
         "li19":"Servicios de Hosting",
         "li20":"Adminitración de redes sociales",

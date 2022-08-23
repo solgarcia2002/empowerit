@@ -17,7 +17,7 @@
         "follow":"Join us",
         "contact":"Contact"
     },
-    
+
     "cover": {
         "text":"Your partners in the leadership of the future",
         "button":"See More"
@@ -90,7 +90,7 @@
         "character":"Characters not allowed",
         "number-ch":"Only numbers",
         "email-inv":"Invalid email"
-        
+
     },
     "serv":{
         "title":"Services",
@@ -98,26 +98,26 @@
         "ball2":"SOLUTIONS DESIGN",
         "ball3":"ADMINISTRATION AND MAINTENANCE",
         "li1":"E-learning Platforms",
-        "li2":"Plataformas E-commerce",
-        "li3":"Landing pages",
+        "li2":"E-commerce Platforms",
+        "li3":"Landing Pages",
         "li4":"Interactive 2D, 3D Aplications",
-        "li5":"Solutions for Clinics and Sanatoriums (We are HL7 y HIPPA Complients experts)",
+        "li5":"Solutions for Clinics and Hospitals (We are HL7 y HIPPA complient experts)",
         "li6":"Contact Forms",
         "li7":"Opinion polls",
         "li8":"Bots for automatic responses",
-        "li9":"Microwebs",
+        "li9":"MicroWebs",
         "li10":"MVP's",
         "li11":"Customized IT projects",
-        "li12":"image design",
+        "li12":"Image design",
         "li13":"Content design",
         "li14":"Physical and electronic cards design",
         "li15":"CV design",
         "li16":"Brochures",
         "li17":"Graphics and branding",
-        "li18":"search engine optimization",
+        "li18":"Search engine optimization (SEO)",
         "li19":"Hosting services",
         "li20":"Social media management",
-        "li21":"digital diagnostic service",
+        "li21":"Digital diagnostic service",
         "li22":"Community manager"
     }
 }

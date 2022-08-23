@@ -1,11 +1,12 @@
 .cont-todo{
     justify-content: center;
     flex:auto;
-    justify-items: center; 
+    justify-items: center;
     position:relative;
     display: block;
     height: 100%;
     width: 100%;
+    padding-bottom: 3rem;
 }
 .cont-titulo{
     display:flex;
@@ -16,16 +17,16 @@
     margin-top: 5vh;
     text-align: center;
     position:relative;
-   
+
     color:#1c7eab;
-    
+
     font-size: 10vh;
     margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
 }
 .cont-primero {
-    
+
     display:flex;
     flex-wrap: wrap;
     height: 90%;
@@ -41,7 +42,7 @@
     width:45%;
     color: rgb(88, 88, 88);
 }
-.circulo1{
+.circulo1, .circulo2 ,.circulo3{
     background-color: #68C3Cf;
     width: 280px;
     height:280px;
@@ -51,40 +52,20 @@
 
 .circulo2{
     background-color: #08B1B1;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    line-height: 280px;
 }
 .circulo3{
     background-color: #1c7eab;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    line-height: 280px;
 }
-.title-ball{
+.title-ball , .title-ball2,.title-ball2-s {
     color: white;
     text-align: center;
     justify-content: center;
     display: inline-block;
     text-transform: uppercase;
-    
     vertical-align: middle;
-}
-.title-ball2{
-    color: white;
-    text-align: center;
-    justify-content: center;
-    display:inline-flex;
-    margin-left: 4vw;
-}
-.title-ball2-s{
-    color: white;
-    text-align: center;
-    justify-content: center;
-    display:inline-flex;
-    margin-left: 2.5vw;
+    margin:1rem;
+    width: 89%;
+    font-size: 1.7rem;
 }
 .cont-button-s{
     display: flex;

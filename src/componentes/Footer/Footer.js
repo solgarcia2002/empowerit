@@ -82,7 +82,7 @@ const Footer = () => {
 
 
             <div className="text-center p-4">
-                © 2022 Copyright
+                Empowerit.io © 2022 Copyright
 
             </div>
 
