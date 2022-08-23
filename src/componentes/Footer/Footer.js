@@ -74,7 +74,7 @@ const Footer = () => {
                         <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/empowerit.io/"
                            className="me-4 text-reset"><i className="bi bi-instagram"></i></a>
                         {/*<a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>*/}
-                        <a  target="_blank" rel='noreferrer'href="https://www.linkedin.com/company/empowerit-io/" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>*
+                        <a  target="_blank" rel='noreferrer'href="https://www.linkedin.com/company/empowerit-io/" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
 
