@@ -1,15 +1,15 @@
-.cover-container{
-    height: 100vh;
+.cover-container {
     width: 100%;
     object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0,6 );
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0, 6);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top:-10vh;
-
+    top: -10vh;
+    height: 100vh;
 }
+
 .video {
     object-fit: cover;
     width: 100%;
@@ -18,15 +18,16 @@
     z-index: -2;
 }
 
-.cover-container > .h1, .cover-container h1{
+.cover-container > .h1, .cover-container h1 {
     color: white;
     font-size: 100px;
     font-family: 'Khand', sans-serif;
     text-shadow: 1px 1px 2px black;
 }
 
-.cover-container h1.subtitle{
+.cover-container h1.subtitle {
     font-size: 2rem;
+    text-align: center;
 }
 
 .cover-container > h2 {
@@ -39,111 +40,123 @@
 }
 
 
-
-.img{
+.img {
     object-fit: cover;
     width: 100%;
-    height: 100vh;
     position: absolute;
     z-index: -5;
-    top:-5px;
+    top: -5px;
 }
-.btn-main{
 
-    position:relative;
-    display:inline-block;
+.btn-main {
+
+    position: relative;
+    display: inline-block;
     width: auto;
     height: auto;
     background-color: #68c3cf;
-    border:none;
+    border: none;
     cursor: pointer;
-    margin-block:inherit;
+    margin-block: inherit;
     min-width: 150px;
     justify-self: center !important;
 }
-.btn-main span{
-    position:relative;
-    display:inline-block;
+
+.btn-main span {
+    position: relative;
+    display: inline-block;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding:15px 20px;
-    transition:0.3s;
+    padding: 15px 20px;
+    transition: 0.3s;
 }
-.btn-main::before{
-    background-color:#08b1b1 ;
+
+.btn-main::before {
+    background-color: #08b1b1;
     transition: 0.3s ease-out;
     position: absolute;
     content: "";
 }
-.btn-main span{
-    color:white ;
+
+.btn-main span {
+    color: white;
 
     transition: 0.2s 0.1s;
 }
-.btn-main span:hover{
+
+.btn-main span:hover {
     color: black;
     transition: 0.2s 0.1s;
 }
-.btn-main.hover-filled-slide-up::before{
-    top:0;
+
+.btn-main.hover-filled-slide-up::before {
+    top: 0;
     left: 0;
     right: 0;
     height: 100%;
     width: 100%;
 
 }
-.btn-main.hover-filled-slide-up:hover::before{
+
+.btn-main.hover-filled-slide-up:hover::before {
     height: 0%;
 }
-.btn-main:disabled{
+
+.btn-main:disabled {
     background-color: #68c3cf;
     transition: none;
-    color:gray
+    color: gray
 }
 
-.btn-main:disabled::before{
+.btn-main:disabled::before {
     background-color: #68c3cf;
     transition: none;
-    color:rgb(153, 153, 153)
+    color: rgb(153, 153, 153)
 }
-.btn-main:disabled span:hover{
+
+.btn-main:disabled span:hover {
     color: rgb(118, 118, 118);
-    transition:none;
+    transition: none;
 }
-.btn-main:disabled span{
-    color:rgb(59, 59, 59) ;
+
+.btn-main:disabled span {
+    color: rgb(59, 59, 59);
 
     transition: none;
 }
 
 
 @media screen and (max-width: 700px) {
-    .img{
-        height: auto;
+    .img {
         width: 100%;
         margin-top: 10vh;
-
+        --opacidad-negro: 0.8;
+        background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./poster.jpg");
     }
 
-
-    .cover-container{
+    .cover-container {
         padding: 0;
-        height: 30vh;
         position: static;
+        height: auto;
         text-shadow: none;
     }
 
-
-    .cover-container > h2 {
-
-        margin-top: 3vh;
-        font-size: 20px;
-
+    .cover-container > .h1 {
+        margin-top:0 !important;
     }
 
+    .cover-container > .h1, .cover-container h1 {
+        margin-top:0 !important;
+        font-size: 30px;
+    }
+
+    .cover-container > h2, .cover-container h1.subtitle {
+        margin-top: 3vh;
+        font-size: 20px;
+    }
 }
