@@ -25,7 +25,7 @@ const Footer = () => {
                         </h4>
                         <p>{t("cover.text")}</p>
                     </div>
-                    
+
                     { /*    <div className="col-md-2 col-lg-2 col-xl-2  mb-2">
                         <h6 as={Link} to='/desafio 'className="text-uppercase fw-bold mb-4">
             {t("footer.follow")}</h6>
@@ -74,7 +74,7 @@ const Footer = () => {
                         <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/empowerit.io/"
                            className="me-4 text-reset"><i className="bi bi-instagram"></i></a>
                         {/*<a  target="_blank" rel='noreferrer'href="https://whatsapp" class="me-4 text-reset"><i class="bi bi-whatsapp"></i></a>*/}
-                        {/*<a  target="_blank" rel='noreferrer'href="https://linkedin.com" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>*/}
+                        <a  target="_blank" rel='noreferrer'href="https://www.linkedin.com/company/empowerit-io/" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>*
                     </div>
                 </div>
 
