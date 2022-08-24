@@ -1,140 +1,149 @@
-.cont-todo{
+.cont-todo {
     justify-content: center;
-    flex:auto;
+    flex: auto;
     justify-items: center;
-    
-    
-}
-.cont-img{
-    overflow:hidden ;
-    width: 100%;
-    height: 30vw;
-    border:0;
-    margin-bottom: 70px;
-    z-index: -10;
 }
 
-
-
-.portada{
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 0;
-    top:-30vh;
-    filter:blur(2px);
-    float: initial;
-    text-align: center;
-    
-    
-}
-.cont-titulo{
-    display:flex;
-    width: 25%;
-    text-align: center;
-    margin-left: auto;
-    margin-right:auto ;
-}
-.cont-titulo1{
-    display:flex;
-    width: 35%;
-    text-align: center;
-    margin-left: auto;
-    margin-right:auto ;
-}
-.titulo-portada{
+.title-trabajos{
+    padding-top: 1rem;
     display: flex;
-    position:absolute;
-    top:15vh;
-    
-    color:white;
-    text-shadow:1px 1px 2px black;
-    font-size: 10vh;
-    
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
 }
-.cont-texto{
-    width: 70%;
-    top:10vh;
+.portada {
+    width: 100%;
+}
+
+.cont-titulo1 {
+    background-image: url("https://empowerit-assets.s3.amazonaws.com/desarrollo-software.jpg") ;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-position: right center;
     display: flex;
-    
+    flex-direction: column;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-.texto{
-    display: flex;
-    position:absolute;
-    top:30vh;
+   }
+
+.titulo-portada {
+    flex:1;
     color: white;
-    text-shadow:1px 1px 2px black;
-    text-align: center;
-    font-size:2vw;
-    width: 75%;
-    
+    text-shadow: 1px 1px 2px black;
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-.cont-button{
-    display:block;
-    position:relative;
+
+.cont-texto {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    flex:1;
+    top: 30vh;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
+    text-justify: auto;
+    padding: 0 0.2rem;
+}
+
+.cont-button {
+    display: block;
+    position: relative;
     width: 100%;
     justify-items: center;
     margin-left: 45vw;
     padding-bottom: 100px;
 }
-.cont-gif{
+
+.cont-gif {
     align-content: center;
     background-color: white;
     width: 100%;
     height: 100%;
-    position:absolute;
+    position: absolute;
     justify-content: center;
     z-index: 20;
-    
- }
- .gif{
+
+}
+
+.gif {
     width: 400px;
     height: auto;
-    margin:10vw 0 0 30vw;
- }
+    margin: 10vw 0 0 30vw;
+}
 
-@media screen and (max-width:800px) {
-    .cont-todo{
+.clients-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .cont-todo {
         height: 50vh;
     }
-    .cont-img{
+    .cont-titulo1 {
+        top: -54vw;
+    }
+
+    .cont-img {
         height: 30vh;
-        
     }
-    .titulo-portada{
-        font-size:25px;
-        top:10vh;
-        text-justify: center;
-        
-        
+
+    .titulo-portada {
+        font-size: 20px;
+        top: 10vh;
+        text-justify: auto;
     }
-    .portada{
-        top:8vh;
-        filter:blur(0px);
-        position:absolute;
-        height: auto;
-        
+
+    .texto {
+        font-size: 14px;
     }
-    .texto{
-        font-size: 3vw;
-        top:15vh;
-        margin:0 5vh;
-    }
-    .cont-texto{
+
+    .cont-texto {
         width: 90%;
-        
     }
-    .cont-button{
+
+    .cont-button {
         margin-left: 15vh;
     }
-    .gif{
+
+    .gif {
         width: 200px;
         height: auto;
-        margin:7vw 0 0 20vw;
-     }
+        margin: 7vw 0 0 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .cont-todo {
+        height: 50vh;
+    }
+    .cont-titulo1 {
+        top: -54vw;
+    }
+
+    .cont-img {
+        height: 30vh;
+    }
+
+    .titulo-portada {
+        font-size: 20px;
+        top: 10vh;
+        text-justify: auto;
+    }
+
+    .texto {
+        font-size: 14px;
+    }
 }

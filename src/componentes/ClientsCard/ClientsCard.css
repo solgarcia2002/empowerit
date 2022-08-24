@@ -21,7 +21,7 @@
     }
     .client-logo {
         height: auto;
-        width: 11vh;
+        width: 100%;
         background-color: #ccc;
         padding:0;
         margin:0;

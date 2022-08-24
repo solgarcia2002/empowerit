@@ -2,7 +2,7 @@
 .info1, .info2, .info3{
     color: black;
     text-align: center;
-    
+
     }
 
 .primer, .seg, .ter{
@@ -10,11 +10,11 @@
     margin-left: 30%;
     width: 42vh;
     align-content:center;
-    height: auto; 
-      
+    height: auto;
+
 }
 .info > h3 {
-    
+
     font-family: 'Acme', sans-serif;
     font-size: xx-large;
 }
@@ -33,17 +33,16 @@ opacity: 80%;
 @media screen and  (max-width: 800px){
     .primer, .seg, .ter{
         margin-right:5vh;
-        
         width: 30vh;
     }
 }
-  
+
 .slide-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-    
+
 
 
 
