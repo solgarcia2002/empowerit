@@ -12,11 +12,11 @@ function ControlledCarousel() {
 
   return (
     <Carousel className= "contenedor" activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item className='diap1'> 
-        <div className='slide-container'> 
+      <Carousel.Item className='diap1'>
+        <div className='slide-container'>
           <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/clinify.png' title="Clinify Health - Chicago, US"/>
           <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/betway.png' title="Betway - UK"/>
-          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/arqsaravia.jpg' title="Arq Magdalena Saravia- AR"/>
+          <ClientCard image='https://empowerit-assets.s3.amazonaws.com/clients/arqsaravia.png' title="Arq Magdalena Saravia- AR"/>
         </div>
       </Carousel.Item>
       <Carousel.Item className='diap2'>
