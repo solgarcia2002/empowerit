@@ -10,10 +10,11 @@ const Covers = () => {
 
     return (
         <div className='cover-container'>
-            <video defaultValue={'EmpowerIT.io Desarrollo Web a medida'} className='d-none d-md-block .d-lg-none video'
+            <video defaultValue={'EmpowerIT.io Desarrollo Web a medida'}
+                   className='d-block d-xs-none d-sm-none video'
                    src={'https://empowerit-assets.s3.amazonaws.com/coverVideo.mp4'} autoPlay loop muted
                    poster={Poster}/>
-            <img className='.d-none .d-lg-none .d-md-none img' alt='' src={Poster}/>
+            <img className='d-block d-lg-none d-xl-none d-md-none img' alt='' src={Poster}/>
             <h2 className={'h1'}>EMPOWERIT</h2>
             <h1 className='subtitle'>{t("serv.ball")} - {t("solutions.ball-3-title")} - {t("serv.ball3")}</h1>
             <h2> {t("cover.text")} </h2>
