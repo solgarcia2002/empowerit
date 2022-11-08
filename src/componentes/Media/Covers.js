@@ -11,7 +11,7 @@ const Covers = () => {
     return (
         <div className='cover-container'>
             <video defaultValue={'EmpowerIT.io Desarrollo Web a medida'}
-                   className='d-block d-xs-none d-sm-none video'
+                   className='video'
                    src={'https://empowerit-assets.s3.amazonaws.com/coverVideo.mp4'} autoPlay loop muted
                    poster={Poster}/>
             <img className='d-block d-lg-none d-xl-none d-md-none img' alt='' src={Poster}/>
